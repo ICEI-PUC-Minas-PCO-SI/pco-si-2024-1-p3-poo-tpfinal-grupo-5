@@ -3,25 +3,35 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace UrnaEletronica.Service
 {
     public static class JsonDatabaseService
     {
-        public static void gravaArquivo()
+        public static List<object> lerArquivo(string entidadeBanco)
         {
-            //string Json = "";
-            //Json = JsonConvert.SerializeObject(usu);
+            try
+            {
+                string json = File.ReadAllText(entidadeBanco);
+                //json = SerializeObjectList(myObjectList);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
 
-            //File.WriteAllText(caminho.geraCaminho(), Json);
+            
+
         }
-        public static string geraCaminho(string arquivo)
+
+        public static string geraCaminho(string entidadeBanco)
         {
-            //mudado o endereço da pasta do json
-            string caminhoArquivo = "Banco\\Usuarios.json";
+            string caminhoArquivo = $"Banco\\{entidadeBanco}.json";
             string caminhoCompleto = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, caminhoArquivo);
 
             return caminhoCompleto;
         }
+
     }
 }

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final\\src\\UrnaEletronica\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|e:\\trabalhos puc\\programacao orientada a objeto\\trabalho final\\src\\urnaeletronica\\urnaeletronica\\service\\jsondatabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\service\\jsondatabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|e:\\trabalhos puc\\programacao orientada a objeto\\trabalho final\\src\\urnaeletronica\\urnaeletronica\\view\\urnaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\urnaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -30,11 +34,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "JsonDatabaseService.cs",
+              "DocumentMoniker": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final\\src\\UrnaEletronica\\UrnaEletronica\\Service\\JsonDatabaseService.cs",
+              "RelativeDocumentMoniker": "UrnaEletronica\\Service\\JsonDatabaseService.cs",
+              "ToolTip": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final\\src\\UrnaEletronica\\UrnaEletronica\\Service\\JsonDatabaseService.cs",
+              "RelativeToolTip": "UrnaEletronica\\Service\\JsonDatabaseService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T21:26:28.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Eleicao.cs",
               "DocumentMoniker": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final\\src\\UrnaEletronica\\UrnaEletronica\\Model\\Eleicao.cs",
               "RelativeDocumentMoniker": "UrnaEletronica\\Model\\Eleicao.cs",
@@ -47,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Coligacao.cs",
               "DocumentMoniker": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final\\src\\UrnaEletronica\\UrnaEletronica\\Model\\Coligacao.cs",
               "RelativeDocumentMoniker": "UrnaEletronica\\Model\\Coligacao.cs",
@@ -60,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Partido.cs",
               "DocumentMoniker": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final\\src\\UrnaEletronica\\UrnaEletronica\\Model\\Partido.cs",
               "RelativeDocumentMoniker": "UrnaEletronica\\Model\\Partido.cs",
@@ -73,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Candidato.cs",
               "DocumentMoniker": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final\\src\\UrnaEletronica\\UrnaEletronica\\Model\\Candidato.cs",
               "RelativeDocumentMoniker": "UrnaEletronica\\Model\\Candidato.cs",
@@ -85,12 +106,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UrnaView.cs [Projeto]",
               "DocumentMoniker": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final\\src\\UrnaEletronica\\UrnaEletronica\\View\\UrnaView.cs",
               "RelativeDocumentMoniker": "UrnaEletronica\\View\\UrnaView.cs",
