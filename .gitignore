@@ -1,0 +1,49 @@
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+![Bb]uild[Ll]og.htm
+![Bb]uild[Ll]og.xml
+![Bb]uild[Ll]og.xsl
+
+#NUnit
+*.VisualState.xml
+TestResult.xml
+
+# Web Files
+clientbin/
+_SiteConfig/
+node_modules/
+npm-debug.log
+yarn-error.log
+packages/
+wwwroot/
+wwwroot/lib/
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Windows image file caches
+Th

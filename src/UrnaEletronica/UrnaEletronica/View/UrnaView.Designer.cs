@@ -1,6 +1,6 @@
 ﻿namespace UrnaEletronica
 {
-    partial class Form1
+    partial class UrnaView
     {
         /// <summary>
         ///  Required designer variable.
