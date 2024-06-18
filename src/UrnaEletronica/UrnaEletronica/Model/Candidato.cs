@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Drawing.Printing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,7 +12,7 @@ namespace UrnaEletronica.Model
     {
         public int Id { get; set; }
         public int Numero { get; set; }
-        public string Nome {  get; set; }
+        public string Nome { get; set; }
         public string Partido { get; set; }
     }
 }
