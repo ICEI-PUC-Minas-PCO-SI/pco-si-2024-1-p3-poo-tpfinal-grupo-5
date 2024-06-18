@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <Folder Include="Controller\" />
+    <Folder Include="JsonFiles\" />
     <Folder Include="Utils\" />
   </ItemGroup>
 

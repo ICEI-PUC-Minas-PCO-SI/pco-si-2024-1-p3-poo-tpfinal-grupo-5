@@ -42,12 +42,20 @@ namespace UrnaEletronica.Service
             string caminho = "C:\\Users\\faelr\\OneDrive\\Documentos\\UrnaPOO\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\JsonFiles\\Presidentes.json";
             if (File.Exists(caminho))
             {
-                string jsonString = File.ReadAllText(caminho);
-                var candidatos = System.Text.Json.JsonSerializer.Deserialize<List<Candidato>>(jsonString);
-                foreach(var candidato in candidatos)
+                try
                 {
-                    _dicCandidato.Add(candidato.Numero.ToString(), candidato);
+                    string jsonString = File.ReadAllText(caminho);
+                    var candidatos = System.Text.Json.JsonSerializer.Deserialize<List<Candidato>>(jsonString);
+                    foreach (var candidato in candidatos)
+                    {
+                        _dicCandidato.Add(candidato.Numero.ToString(), candidato);
+                    }
                 }
+                catch (FileNotFoundException erro)
+                {
+                    MessageBox.Show("Erro ao carregar o arquivo");
+                }
+
             }
             else
             {
