@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace UrnaEletronica.Model
 {
-    public class Partido
+    public class EleicaoExecutivo : Eleicao
     {
-        public string Sigla {  get; set; }
-
-        public Partido(string sigla)
+        public EleicaoExecutivo(string tipo) : base(tipo)
         {
-            Sigla = sigla;
+        }
+
+        public override void CalcularResultado()
+        {
         }
     }
 }

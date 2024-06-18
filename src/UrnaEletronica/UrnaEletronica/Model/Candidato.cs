@@ -10,9 +10,15 @@ namespace UrnaEletronica.Model
 {
     public class Candidato
     {
-        public int Id { get; set; }
         public int Numero { get; set; }
         public string Nome { get; set; }
-        public string Partido { get; set; }
+        public Partido Partido { get; set; }
+
+        public Candidato(int numero, string nome, Partido partido) 
+        { 
+            Numero = numero;
+            Nome = nome;
+            Partido = partido;
+        }
     }
 }
