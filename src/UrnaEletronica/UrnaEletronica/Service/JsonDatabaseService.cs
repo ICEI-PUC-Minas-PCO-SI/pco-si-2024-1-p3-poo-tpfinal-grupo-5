@@ -12,7 +12,7 @@ namespace UrnaEletronica.Service
     public class JsonDatabaseService
     {
         private Dictionary<string, Candidato> _dicCandidato;
-        public static List<object> lerArquivo(string entidadeBanco)
+        /*public static List<object> lerArquivo(string entidadeBanco)
         {
             try
             {
@@ -26,7 +26,7 @@ namespace UrnaEletronica.Service
 
             
 
-        }
+        }*/
 
         public static string geraCaminho(string entidadeBanco)
         {

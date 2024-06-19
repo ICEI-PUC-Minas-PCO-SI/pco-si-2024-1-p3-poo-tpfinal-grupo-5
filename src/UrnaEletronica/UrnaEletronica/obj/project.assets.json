@@ -60,11 +60,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1474331\\Documents\\TrabPOO\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj",
+      "projectUniqueName": "C:\\Users\\1474331\\Documents\\POO\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj",
       "projectName": "UrnaEletronica",
-      "projectPath": "C:\\Users\\1474331\\Documents\\TrabPOO\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj",
+      "projectPath": "C:\\Users\\1474331\\Documents\\POO\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj",
       "packagesPath": "C:\\Users\\1474331\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1474331\\Documents\\TrabPOO\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\obj\\",
+      "outputPath": "C:\\Users\\1474331\\Documents\\POO\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\1474331\\AppData\\Roaming\\NuGet\\NuGet.Config",
