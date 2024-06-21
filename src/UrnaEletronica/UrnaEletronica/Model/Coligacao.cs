@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace UrnaEletronica.Model
 {
-    internal class Coligacao
+    class Coligacao
     {
+        private int codigo;
+        private string nome;
+        private int numero;
     }
 }
