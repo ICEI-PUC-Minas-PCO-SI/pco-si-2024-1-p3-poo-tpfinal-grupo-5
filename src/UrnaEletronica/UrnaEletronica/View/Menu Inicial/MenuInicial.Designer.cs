@@ -28,44 +28,93 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            button1 = new Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuInicial));
+            cadastrarEleicao = new Button();
+            cadastrarColigacao = new Button();
+            cadastrarPartido = new Button();
+            cadastrarCandidato = new Button();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // label1
+            // cadastrarEleicao
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(366, 173);
-            label1.Name = "label1";
-            label1.Size = new Size(50, 20);
-            label1.TabIndex = 0;
-            label1.Text = "label1";
+            cadastrarEleicao.FlatStyle = FlatStyle.Popup;
+            cadastrarEleicao.Font = new Font("Inter", 9F);
+            cadastrarEleicao.ImageAlign = ContentAlignment.BottomLeft;
+            cadastrarEleicao.ImageKey = "(nenhum)";
+            cadastrarEleicao.Location = new Point(233, 152);
+            cadastrarEleicao.Name = "cadastrarEleicao";
+            cadastrarEleicao.Size = new Size(268, 41);
+            cadastrarEleicao.TabIndex = 1;
+            cadastrarEleicao.Text = "Cadastrar eleição";
+            cadastrarEleicao.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // cadastrarColigacao
             // 
-            button1.Location = new Point(504, 106);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 1;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            cadastrarColigacao.FlatStyle = FlatStyle.Popup;
+            cadastrarColigacao.Font = new Font("Inter", 9F);
+            cadastrarColigacao.Location = new Point(233, 222);
+            cadastrarColigacao.Name = "cadastrarColigacao";
+            cadastrarColigacao.Size = new Size(268, 41);
+            cadastrarColigacao.TabIndex = 3;
+            cadastrarColigacao.Text = "Cadastrar coligação";
+            cadastrarColigacao.UseVisualStyleBackColor = true;
+            // 
+            // cadastrarPartido
+            // 
+            cadastrarPartido.FlatStyle = FlatStyle.Popup;
+            cadastrarPartido.Font = new Font("Inter", 9F);
+            cadastrarPartido.Location = new Point(233, 290);
+            cadastrarPartido.Name = "cadastrarPartido";
+            cadastrarPartido.Size = new Size(268, 41);
+            cadastrarPartido.TabIndex = 4;
+            cadastrarPartido.Text = "Cadastrar partido";
+            cadastrarPartido.UseVisualStyleBackColor = true;
+            // 
+            // cadastrarCandidato
+            // 
+            cadastrarCandidato.FlatStyle = FlatStyle.Popup;
+            cadastrarCandidato.Font = new Font("Inter", 9F);
+            cadastrarCandidato.Location = new Point(233, 361);
+            cadastrarCandidato.Name = "cadastrarCandidato";
+            cadastrarCandidato.Size = new Size(268, 41);
+            cadastrarCandidato.TabIndex = 5;
+            cadastrarCandidato.Text = "Cadastrar candidato";
+            cadastrarCandidato.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(-35, -27);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(793, 561);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 6;
+            pictureBox1.TabStop = false;
             // 
             // MenuInicial
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button1);
-            Controls.Add(label1);
+            BackColor = SystemColors.ButtonFace;
+            ClientSize = new Size(731, 516);
+            Controls.Add(cadastrarCandidato);
+            Controls.Add(cadastrarPartido);
+            Controls.Add(cadastrarColigacao);
+            Controls.Add(cadastrarEleicao);
+            Controls.Add(pictureBox1);
             Name = "MenuInicial";
             Text = "MenuInicial";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
-
-        private Label label1;
-        private Button button1;
+        private Button cadastrarColigacao;
+        private Button cadastrarPartido;
+        private Button cadastrarCandidato;
+        protected Button cadastrarEleicao;
+        private PictureBox pictureBox1;
     }
 }
