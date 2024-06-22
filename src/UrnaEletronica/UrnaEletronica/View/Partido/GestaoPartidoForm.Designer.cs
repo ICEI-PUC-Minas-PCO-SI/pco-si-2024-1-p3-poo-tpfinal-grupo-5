@@ -220,6 +220,7 @@
             Controls.Add(panel1);
             Name = "GestaoEleicaoForm";
             Text = "GestaoColigacaoForm";
+            Load += GestaoEleicaoForm_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
