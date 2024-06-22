@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "A8BkvexYqno32nH4VDseLWjKxY4EV9ti6RJyvCdvci2ihUJCkV0Ih2pj8LQWnlkNSbzssKiAB0ipEihWxKMKpQ==",
+=======
+  "dgSpecHash": "IR6ThI499my05/4+ygG0l1J3tLaRidygF4JKh5Ysfz54K+VpgHDNE9L+b2c2hQOU3uN/JHq2j+dDw52N3xWB/g==",
+>>>>>>> TelasBarbara
   "success": true,
   "projectFilePath": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj",
   "expectedPackageFiles": [
