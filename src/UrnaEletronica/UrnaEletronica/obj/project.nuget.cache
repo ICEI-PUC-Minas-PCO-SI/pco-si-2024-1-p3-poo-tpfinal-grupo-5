@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "OThFOZ77jZKh/DLc1Efu8LCL6wAIK9b1K1mzrhVyTdBYkOI7U2KviigtVlXzVVwKdLoRcMvEV5xO4hZBGNzB1A==",
+  "dgSpecHash": "IR6ThI499my05/4+ygG0l1J3tLaRidygF4JKh5Ysfz54K+VpgHDNE9L+b2c2hQOU3uN/JHq2j+dDw52N3xWB/g==",
   "success": true,
-  "projectFilePath": "D:\\Bárbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj",
+  "projectFilePath": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Barbara Xavier\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\Matheus Canuto\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
