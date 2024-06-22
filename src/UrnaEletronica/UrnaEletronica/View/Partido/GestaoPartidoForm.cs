@@ -10,13 +10,12 @@ using System.Windows.Forms;
 
 namespace UrnaEletronica.View.Coligacao
 {
-    public partial class GestaoEleicaoForm : Form
+    public partial class GestaoPartidoForm : Form
     {
-        public GestaoEleicaoForm()
+        public GestaoPartidoForm()
         {
             InitializeComponent();
         }
-
         private void GestaoEleicaoForm_Load(object sender, EventArgs e)
         {
 

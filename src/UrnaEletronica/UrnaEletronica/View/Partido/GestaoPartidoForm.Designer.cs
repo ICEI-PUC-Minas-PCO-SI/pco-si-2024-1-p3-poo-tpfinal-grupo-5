@@ -1,6 +1,6 @@
 ﻿namespace UrnaEletronica.View.Coligacao
 {
-    partial class GestaoEleicaoForm
+    partial class GestaoPartidoForm
     {
         /// <summary>
         /// Required designer variable.

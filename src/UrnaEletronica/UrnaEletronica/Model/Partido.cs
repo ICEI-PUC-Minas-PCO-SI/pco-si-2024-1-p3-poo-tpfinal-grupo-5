@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace UrnaEletronica.Model
 {
-    public class Partido
+    public class PartidoModel
     {
-        public string Sigla {  get; set; }
-
-        public Partido(string sigla)
-        {
-            Sigla = sigla;
-        }
+        public int id_Partido { get; set; }
+        public string nome { get; set; }
+        public string sigla { get; set; }
+        public int id_coligacao { get; set; }
     }
 }
