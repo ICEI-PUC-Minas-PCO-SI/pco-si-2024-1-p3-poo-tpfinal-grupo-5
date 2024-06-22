@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "A8BkvexYqno32nH4VDseLWjKxY4EV9ti6RJyvCdvci2ihUJCkV0Ih2pj8LQWnlkNSbzssKiAB0ipEihWxKMKpQ==",
-=======
-  "dgSpecHash": "IR6ThI499my05/4+ygG0l1J3tLaRidygF4JKh5Ysfz54K+VpgHDNE9L+b2c2hQOU3uN/JHq2j+dDw52N3xWB/g==",
->>>>>>> TelasBarbara
   "success": true,
   "projectFilePath": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj",
   "expectedPackageFiles": [
@@ -42,5 +38,12 @@
     "C:\\Users\\Matheus Canuto\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
     "C:\\Users\\Matheus Canuto\\.nuget\\packages\\zstdsharp.port\\0.7.1\\zstdsharp.port.0.7.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

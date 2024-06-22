@@ -63,12 +63,6 @@ namespace UrnaEletronica.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Brasil_Flag_Background__Brasil_Bandeira__Bandeira__Fundo_Imagem_de_plano_de_fundo_para_download_gratuito {
-            get {
-                object obj = ResourceManager.GetObject("Brasil Flag Background, Brasil Bandeira, Bandeira, Fundo Imagem de plano de fundo" +
-                        " para download gratuito", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
+        
     }
 }

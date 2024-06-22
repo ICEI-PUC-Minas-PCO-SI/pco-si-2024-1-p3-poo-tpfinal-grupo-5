@@ -1,39 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|e:\\trabalhos puc\\programacao orientada a objeto\\trabalho final trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\urnaeletronica\\urnaeletronica\\view\\eleicao\\gestaoeleicaoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\eleicao\\gestaoeleicaoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Visual\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\urnaeletronica\\view\\partido\\gestaopartidoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\partido\\gestaopartidoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\urnaeletronica\\view\\partido\\gestaopartidoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\partido\\gestaopartidoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\urnaeletronica\\view\\eleicao\\gestaoeleicaoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\eleicao\\gestaoeleicaoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\urnaeletronica\\view\\coligacaoviews\\gestaocoligacaoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\coligacaoviews\\gestaocoligacaoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\urnaeletronica\\view\\menu inicial\\menuinicial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\menu inicial\\menuinicial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\urnaeletronica\\view\\relatorio\\relatoriovotacao.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\relatorio\\relatoriovotacao.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -41,112 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "E:\\Visual\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Visual\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "E:\\Visual\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Visual\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AQIAACcNAAAAAAAAAAAtwDkNAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-06-22T22:15:37.41Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GestaoEleicaoForm.cs",
-              "DocumentMoniker": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\Eleicao\\GestaoEleicaoForm.cs",
-              "RelativeDocumentMoniker": "UrnaEletronica\\View\\Eleicao\\GestaoEleicaoForm.cs",
-              "ToolTip": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\Eleicao\\GestaoEleicaoForm.cs",
-              "RelativeToolTip": "UrnaEletronica\\View\\Eleicao\\GestaoEleicaoForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T22:15:31.425Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GestaoPartidoForm.cs",
-              "DocumentMoniker": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\Partido\\GestaoPartidoForm.cs",
-              "RelativeDocumentMoniker": "UrnaEletronica\\View\\Partido\\GestaoPartidoForm.cs",
-              "ToolTip": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\Partido\\GestaoPartidoForm.cs",
-              "RelativeToolTip": "UrnaEletronica\\View\\Partido\\GestaoPartidoForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T22:15:15.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RelatorioVotacao.Designer.cs",
-              "DocumentMoniker": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\Relatorio\\RelatorioVotacao.Designer.cs",
-              "RelativeDocumentMoniker": "UrnaEletronica\\View\\Relatorio\\RelatorioVotacao.Designer.cs",
-              "ToolTip": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\Relatorio\\RelatorioVotacao.Designer.cs",
-              "RelativeToolTip": "UrnaEletronica\\View\\Relatorio\\RelatorioVotacao.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T22:14:31.216Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GestaoPartidoForm.Designer.cs",
-              "DocumentMoniker": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\Partido\\GestaoPartidoForm.Designer.cs",
-              "RelativeDocumentMoniker": "UrnaEletronica\\View\\Partido\\GestaoPartidoForm.Designer.cs",
-              "ToolTip": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\Partido\\GestaoPartidoForm.Designer.cs",
-              "RelativeToolTip": "UrnaEletronica\\View\\Partido\\GestaoPartidoForm.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T22:14:27.1Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MenuInicial.Designer.cs",
-              "DocumentMoniker": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\Menu Inicial\\MenuInicial.Designer.cs",
-              "RelativeDocumentMoniker": "UrnaEletronica\\View\\Menu Inicial\\MenuInicial.Designer.cs",
-              "ToolTip": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\Menu Inicial\\MenuInicial.Designer.cs",
-              "RelativeToolTip": "UrnaEletronica\\View\\Menu Inicial\\MenuInicial.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T22:14:25.13Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GestaoEleicaoForm.Designer.cs",
-              "DocumentMoniker": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\Eleicao\\GestaoEleicaoForm.Designer.cs",
-              "RelativeDocumentMoniker": "UrnaEletronica\\View\\Eleicao\\GestaoEleicaoForm.Designer.cs",
-              "ToolTip": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\Eleicao\\GestaoEleicaoForm.Designer.cs",
-              "RelativeToolTip": "UrnaEletronica\\View\\Eleicao\\GestaoEleicaoForm.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T22:14:21.426Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GestaoColigacaoForm.Designer.cs",
-              "DocumentMoniker": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\ColigacaoViews\\GestaoColigacaoForm.Designer.cs",
-              "RelativeDocumentMoniker": "UrnaEletronica\\View\\ColigacaoViews\\GestaoColigacaoForm.Designer.cs",
-              "ToolTip": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\ColigacaoViews\\GestaoColigacaoForm.Designer.cs",
-              "RelativeToolTip": "UrnaEletronica\\View\\ColigacaoViews\\GestaoColigacaoForm.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T22:14:15.185Z"
             }
           ]
         }
