@@ -37,6 +37,7 @@ namespace UrnaEletronica.Data.DAO.Candidato
 
             return candidato;
         }
+
         public List<CandidatoModel> BuscarCandidato()
         {
             List<CandidatoModel> coligacoes = new List<CandidatoModel>();
@@ -65,6 +66,7 @@ namespace UrnaEletronica.Data.DAO.Candidato
 
             return coligacoes;
         }
+
         public void CadastrarCandidato(string nomeCandidato, string apelido, int numero, string idPartido)
         {
             using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
@@ -84,6 +86,7 @@ namespace UrnaEletronica.Data.DAO.Candidato
                 }
             }
         }
+
         public void AtualizarCandidato(string nomeCandidato, string apelido, int numero, string idPartido)
         {
             using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
@@ -98,6 +101,23 @@ namespace UrnaEletronica.Data.DAO.Candidato
                     command.Parameters.AddWithValue("@nome", nomeCandidato);
                     command.Parameters.AddWithValue("@apelido", apelido);
                     command.Parameters.AddWithValue("@idPartido", idPartido);
+
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
+
+        public void DeletarCandidato(int idCandidato)
+        {
+            using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
+            {
+                connection.Open();
+
+                string query = "DELETE FROM candidato WHERE id_candidato = @idCandidato";
+
+                using (MySqlCommand command = new MySqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@idColigacao", idCandidato);
 
                     command.ExecuteNonQuery();
                 }
