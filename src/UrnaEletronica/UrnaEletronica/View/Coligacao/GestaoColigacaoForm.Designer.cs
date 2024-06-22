@@ -41,8 +41,8 @@
             textBox3 = new TextBox();
             panel1 = new Panel();
             label4 = new Label();
-            pictureBox1 = new PictureBox();
             button4 = new Button();
+            pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -78,8 +78,10 @@
             // 
             // dataGridView1
             // 
+            dataGridView1.BackgroundColor = Color.LightGray;
+            dataGridView1.BorderStyle = BorderStyle.Fixed3D;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(75, 314);
+            dataGridView1.Location = new Point(75, 309);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(686, 188);
@@ -98,6 +100,7 @@
             // button3
             // 
             button3.BackColor = Color.FromArgb(184, 16, 20);
+            button3.Cursor = Cursors.Hand;
             button3.FlatStyle = FlatStyle.Popup;
             button3.Font = new Font("Inter", 9F);
             button3.ForeColor = SystemColors.ActiveCaptionText;
@@ -155,8 +158,8 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(36, 111, 51);
-            panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(label4);
+            panel1.Controls.Add(pictureBox1);
             panel1.Location = new Point(2, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(818, 81);
@@ -167,21 +170,11 @@
             label4.AutoSize = true;
             label4.Font = new Font("Inter", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = SystemColors.ActiveCaptionText;
-            label4.Location = new Point(12, 22);
+            label4.Location = new Point(23, 23);
             label4.Name = "label4";
-            label4.Size = new Size(316, 36);
+            label4.Size = new Size(351, 36);
             label4.TabIndex = 0;
-            label4.Text = "Gestão da Coligação";
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(726, 4);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(62, 76);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 1;
-            pictureBox1.TabStop = false;
+            label4.Text = "Gestão das Coligações";
             // 
             // button4
             // 
@@ -197,6 +190,16 @@
             button4.TabIndex = 11;
             button4.Text = "Salvar";
             button4.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(701, -31);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(113, 141);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 2;
+            pictureBox1.TabStop = false;
             // 
             // GestaoColigacaoForm
             // 
@@ -240,7 +243,7 @@
         private TextBox textBox3;
         private Panel panel1;
         private Label label4;
-        private PictureBox pictureBox1;
         private Button button4;
+        private PictureBox pictureBox1;
     }
 }

@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace UrnaEletronica.View.Coligacao
+namespace UrnaEletronica.View.Eleicao
 {
     public partial class GestaoEleicaoForm : Form
     {
         public GestaoEleicaoForm()
         {
             InitializeComponent();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
