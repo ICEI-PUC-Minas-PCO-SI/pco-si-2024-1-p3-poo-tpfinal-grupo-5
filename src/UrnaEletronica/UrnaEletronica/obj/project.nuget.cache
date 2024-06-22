@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "EKTVlEcL3I58x2J0yVAwfEkTkHmYlSEhX+mHdfBS4pm91zbDjFGPWKAzxv8RKTIBct4sUKP0wxSWSs4OPZ/BJA==",
+  "dgSpecHash": "IV5VHEzNXBWvADowOI2RH9qw9dlK7zQS+12yrMn1T89eg3PXOcPBBcJ+in9XunZNTB94/O1k2bPzu4n3ceJEaQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\1380848\\Desktop\\POO Final\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj",
+  "projectFilePath": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\1380848\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\Matheus Canuto\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
