@@ -8,7 +8,7 @@
 
 `Eixo: 5`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Este projeto aborda o desenvolvimento de um sistema de gerenciamento de votação eletrônica, tendo como foco inicial eleições Legislativas brasileiras. Além das destas, o sistema também abrange eleições Executivas, integrando as devidas regras eleitorais de ambas. O lançamento inicial foca nas eleições municipais para prefeitos e vereadores, demonstrando a aplicação de princípios de programação orientada a objetos e padrões de design em seu desenvolvimento.
 
 ## Integrantes
 
