@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace UrnaEletronica.Model
 {
-    public class Eleicao
+    public class EleicaoModel
     {
-        private string nome;
-        private int ano;
-        private string tipo;
-        private List<Coligacao> Coligacaos;
-        private List<Partido> Partidos;
-        private int totalVotosValidos;
-        private int totalVotosNulos;
+        public int id_eleicao { get; set; }
+        public int ano { get; set; }
+        public string tipo { get; set; }
+        public int total_votos { get; set; }
     }
 }

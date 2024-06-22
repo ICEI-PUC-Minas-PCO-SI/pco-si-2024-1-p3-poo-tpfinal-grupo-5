@@ -8,13 +8,6 @@ namespace UrnaEletronica.Model
 {
     public class Voto
     {
-        public string Tipo {  get; set; }
-        public Candidato Candidato { get; set; }
-
-        public Voto(string tipo, Candidato candidato)
-        {
-            Tipo = tipo;
-            Candidato = candidato;
-        }
+        
     }
 }
