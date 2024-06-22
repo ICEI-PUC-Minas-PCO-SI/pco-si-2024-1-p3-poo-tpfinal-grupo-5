@@ -12,9 +12,6 @@ namespace UrnaEletronica.View.Coligacao
 {
     public partial class GestaoEleicaoForm : Form
     {
-        public GestaoEleicaoForm()
-        {
-            InitializeComponent();
-        }
+       
     }
 }

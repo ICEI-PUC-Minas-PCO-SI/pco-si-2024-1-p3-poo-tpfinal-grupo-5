@@ -4,7 +4,13 @@
     <Compile Update="View\Coligacao\GestaoColigacaoForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="View\Eleicao\GestaoEleicaoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="View\Menu Inicial\MenuInicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Partido\GestaoPartidoForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="View\Relatorio\RelatorioVotacao.cs">

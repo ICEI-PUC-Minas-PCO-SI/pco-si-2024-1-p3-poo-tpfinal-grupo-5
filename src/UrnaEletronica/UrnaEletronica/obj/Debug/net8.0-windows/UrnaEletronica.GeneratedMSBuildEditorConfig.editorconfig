@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UrnaEletronica
-build_property.ProjectDir = E:\Trabalhos Puc\Programacao Orientada a Objeto\Trabalho Final\src\UrnaEletronica\UrnaEletronica\
+build_property.ProjectDir = C:\Cursos\Sistema de informação\1_2024\Diciplinas\POO\POO_Urna_Trabalho_Final\pco-si-2024-1-p3-poo-tpfinal-grupo-5\src\UrnaEletronica\UrnaEletronica\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
