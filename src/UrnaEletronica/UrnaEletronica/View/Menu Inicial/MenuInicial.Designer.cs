@@ -43,7 +43,7 @@
             cadastrarEleicao.Font = new Font("Inter", 9F);
             cadastrarEleicao.ImageAlign = ContentAlignment.BottomLeft;
             cadastrarEleicao.ImageKey = "(nenhum)";
-            cadastrarEleicao.Location = new Point(233, 152);
+            cadastrarEleicao.Location = new Point(237, 124);
             cadastrarEleicao.Name = "cadastrarEleicao";
             cadastrarEleicao.Size = new Size(268, 41);
             cadastrarEleicao.TabIndex = 1;
@@ -54,7 +54,7 @@
             // 
             cadastrarColigacao.FlatStyle = FlatStyle.Popup;
             cadastrarColigacao.Font = new Font("Inter", 9F);
-            cadastrarColigacao.Location = new Point(233, 222);
+            cadastrarColigacao.Location = new Point(237, 194);
             cadastrarColigacao.Name = "cadastrarColigacao";
             cadastrarColigacao.Size = new Size(268, 41);
             cadastrarColigacao.TabIndex = 3;
@@ -65,7 +65,7 @@
             // 
             cadastrarPartido.FlatStyle = FlatStyle.Popup;
             cadastrarPartido.Font = new Font("Inter", 9F);
-            cadastrarPartido.Location = new Point(233, 290);
+            cadastrarPartido.Location = new Point(237, 262);
             cadastrarPartido.Name = "cadastrarPartido";
             cadastrarPartido.Size = new Size(268, 41);
             cadastrarPartido.TabIndex = 4;
@@ -76,7 +76,7 @@
             // 
             cadastrarCandidato.FlatStyle = FlatStyle.Popup;
             cadastrarCandidato.Font = new Font("Inter", 9F);
-            cadastrarCandidato.Location = new Point(233, 361);
+            cadastrarCandidato.Location = new Point(237, 333);
             cadastrarCandidato.Name = "cadastrarCandidato";
             cadastrarCandidato.Size = new Size(268, 41);
             cadastrarCandidato.TabIndex = 5;
@@ -88,7 +88,7 @@
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(-35, -27);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(793, 561);
+            pictureBox1.Size = new Size(821, 593);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
