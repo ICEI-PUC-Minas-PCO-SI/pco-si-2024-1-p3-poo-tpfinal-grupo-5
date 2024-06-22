@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GestaoColigacaoForm));
             button1 = new Button();
             button2 = new Button();
             dataGridView1 = new DataGridView();
@@ -42,10 +41,8 @@
             panel1 = new Panel();
             label4 = new Label();
             button4 = new Button();
-            pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -159,7 +156,6 @@
             // 
             panel1.BackColor = Color.FromArgb(36, 111, 51);
             panel1.Controls.Add(label4);
-            panel1.Controls.Add(pictureBox1);
             panel1.Location = new Point(2, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(818, 81);
@@ -191,16 +187,6 @@
             button4.Text = "Salvar";
             button4.UseVisualStyleBackColor = false;
             // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(701, -31);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(113, 141);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 2;
-            pictureBox1.TabStop = false;
-            // 
             // GestaoColigacaoForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -224,7 +210,6 @@
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -244,6 +229,5 @@
         private Panel panel1;
         private Label label4;
         private Button button4;
-        private PictureBox pictureBox1;
     }
 }

@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RelatorioVotacao));
-            pictureBox1 = new PictureBox();
             panel1 = new Panel();
             label4 = new Label();
             textBox3 = new TextBox();
@@ -47,24 +45,12 @@
             textBox7 = new TextBox();
             label10 = new Label();
             button2 = new Button();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(709, -29);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(113, 141);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 1;
-            pictureBox1.TabStop = false;
             // 
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(36, 111, 51);
-            panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(label4);
             panel1.Location = new Point(-1, -1);
             panel1.Name = "panel1";
@@ -248,7 +234,6 @@
             Controls.Add(panel1);
             Name = "RelatorioVotacao";
             Text = "RelatorioVotacao";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
@@ -256,8 +241,6 @@
         }
 
         #endregion
-
-        private PictureBox pictureBox1;
         private Panel panel1;
         private Label label4;
         private TextBox textBox3;

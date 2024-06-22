@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GestaoEleicaoForm));
-            pictureBox1 = new PictureBox();
             label4 = new Label();
             panel1 = new Panel();
             textBox3 = new TextBox();
@@ -43,20 +41,9 @@
             dataGridView1 = new DataGridView();
             button2 = new Button();
             button1 = new Button();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(709, -29);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(113, 141);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 1;
-            pictureBox1.TabStop = false;
             // 
             // label4
             // 
@@ -72,7 +59,6 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(36, 111, 51);
-            panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(label4);
             panel1.Location = new Point(1, 0);
             panel1.Name = "panel1";
@@ -221,7 +207,6 @@
             Name = "GestaoEleicaoForm";
             Text = "GestaoColigacaoForm";
             Load += GestaoEleicaoForm_Load;
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
@@ -230,8 +215,6 @@
         }
 
         #endregion
-
-        private PictureBox pictureBox1;
         private Label label4;
         private Panel panel1;
         private TextBox textBox3;

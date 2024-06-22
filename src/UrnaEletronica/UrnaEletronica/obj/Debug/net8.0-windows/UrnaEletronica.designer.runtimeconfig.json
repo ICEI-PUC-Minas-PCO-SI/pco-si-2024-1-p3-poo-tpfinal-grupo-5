@@ -13,8 +13,6 @@
     ],
     "additionalProbingPaths": [
       "C:\\Users\\Barbara Xavier\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Barbara Xavier\\.nuget\\packages"
-      "C:\\Users\\Matheus Canuto\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\Matheus Canuto\\.nuget\\packages"
     ],
     "configProperties": {
