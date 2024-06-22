@@ -40,7 +40,6 @@ namespace UrnaEletronica.Data.DAO.Coligacao
 
         public List<ColigacaoModel> BuscarColigacao()
         {
-
             List<ColigacaoModel> coligacoes = new List<ColigacaoModel>();
 
             using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
