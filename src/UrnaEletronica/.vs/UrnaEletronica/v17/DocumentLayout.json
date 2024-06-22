@@ -3,15 +3,35 @@
   "WorkspaceRootPath": "D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|d:\\b\u00E1rbara\\faculdade barbara\\trabalhos e atv - 4 semestre\\trabalho poo\\src\\urnaeletronica\\urnaeletronica\\view\\menu inicial\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\urnaeletronica\\view\\partido\\gestaopartidoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\partido\\gestaopartidoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\urnaeletronica\\view\\menu inicial\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\menu inicial\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|d:\\b\u00E1rbara\\faculdade barbara\\trabalhos e atv - 4 semestre\\trabalho poo\\src\\urnaeletronica\\urnaeletronica\\view\\menu inicial\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\menu inicial\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\urnaeletronica\\view\\partido\\gestaopartidoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\partido\\gestaopartidoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|d:\\b\u00E1rbara\\faculdade barbara\\trabalhos e atv - 4 semestre\\trabalho poo\\src\\urnaeletronica\\urnaeletronica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\urnaeletronica\\view\\eleicao\\gestaoeleicaoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\eleicao\\gestaoeleicaoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\urnaeletronica\\view\\relatorio\\relatoriovotacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\relatorio\\relatoriovotacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\urnaeletronica\\view\\coligacao\\gestaocoligacaoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\coligacao\\gestaocoligacaoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\urnaeletronica\\view\\votacao\\urna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\votacao\\urna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\urnaeletronica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,28 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MenuInicial.cs",
-              "DocumentMoniker": "D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\UrnaEletronica\\View\\Menu Inicial\\MenuInicial.cs",
-              "RelativeDocumentMoniker": "UrnaEletronica\\View\\Menu Inicial\\MenuInicial.cs",
-              "ToolTip": "D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\UrnaEletronica\\View\\Menu Inicial\\MenuInicial.cs*",
-              "RelativeToolTip": "UrnaEletronica\\View\\Menu Inicial\\MenuInicial.cs*",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T19:27:09.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
@@ -60,18 +63,86 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GestaoPartidoForm.cs",
+              "DocumentMoniker": "D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\UrnaEletronica\\View\\Partido\\GestaoPartidoForm.cs",
+              "RelativeDocumentMoniker": "UrnaEletronica\\View\\Partido\\GestaoPartidoForm.cs",
+              "ToolTip": "D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\UrnaEletronica\\View\\Partido\\GestaoPartidoForm.cs",
+              "RelativeToolTip": "UrnaEletronica\\View\\Partido\\GestaoPartidoForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T22:11:38.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MenuInicial.cs [Projeto]",
               "DocumentMoniker": "D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\UrnaEletronica\\View\\Menu Inicial\\MenuInicial.cs",
               "RelativeDocumentMoniker": "UrnaEletronica\\View\\Menu Inicial\\MenuInicial.cs",
-              "ToolTip": "D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\UrnaEletronica\\View\\Menu Inicial\\MenuInicial.cs [Projeto]*",
-              "RelativeToolTip": "UrnaEletronica\\View\\Menu Inicial\\MenuInicial.cs [Projeto]*",
+              "ToolTip": "D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\UrnaEletronica\\View\\Menu Inicial\\MenuInicial.cs [Projeto]",
+              "RelativeToolTip": "UrnaEletronica\\View\\Menu Inicial\\MenuInicial.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T19:17:48.662Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-06-22T19:17:48.662Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "GestaoPartidoForm.cs [Design]",
+              "DocumentMoniker": "D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\UrnaEletronica\\View\\Partido\\GestaoPartidoForm.cs",
+              "RelativeDocumentMoniker": "UrnaEletronica\\View\\Partido\\GestaoPartidoForm.cs",
+              "ToolTip": "D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\UrnaEletronica\\View\\Partido\\GestaoPartidoForm.cs [Design]",
+              "RelativeToolTip": "UrnaEletronica\\View\\Partido\\GestaoPartidoForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T21:28:20.989Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GestaoEleicaoForm.cs [Projeto]",
+              "DocumentMoniker": "D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\UrnaEletronica\\View\\Eleicao\\GestaoEleicaoForm.cs",
+              "RelativeDocumentMoniker": "UrnaEletronica\\View\\Eleicao\\GestaoEleicaoForm.cs",
+              "ToolTip": "D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\UrnaEletronica\\View\\Eleicao\\GestaoEleicaoForm.cs [Projeto]",
+              "RelativeToolTip": "UrnaEletronica\\View\\Eleicao\\GestaoEleicaoForm.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T21:19:22.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RelatorioVotacao.cs [Projeto]",
+              "DocumentMoniker": "D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\UrnaEletronica\\View\\Relatorio\\RelatorioVotacao.cs",
+              "RelativeDocumentMoniker": "UrnaEletronica\\View\\Relatorio\\RelatorioVotacao.cs",
+              "ToolTip": "D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\UrnaEletronica\\View\\Relatorio\\RelatorioVotacao.cs [Projeto]",
+              "RelativeToolTip": "UrnaEletronica\\View\\Relatorio\\RelatorioVotacao.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T21:29:46.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GestaoColigacaoForm.cs [Projeto]",
+              "DocumentMoniker": "D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\UrnaEletronica\\View\\Coligacao\\GestaoColigacaoForm.cs",
+              "RelativeDocumentMoniker": "UrnaEletronica\\View\\Coligacao\\GestaoColigacaoForm.cs",
+              "ToolTip": "D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\UrnaEletronica\\View\\Coligacao\\GestaoColigacaoForm.cs [Projeto]",
+              "RelativeToolTip": "UrnaEletronica\\View\\Coligacao\\GestaoColigacaoForm.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T20:35:32.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Urna.cs [Projeto]",
+              "DocumentMoniker": "D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\UrnaEletronica\\View\\Votacao\\Urna.cs",
+              "RelativeDocumentMoniker": "UrnaEletronica\\View\\Votacao\\Urna.cs",
+              "ToolTip": "D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\UrnaEletronica\\View\\Votacao\\Urna.cs [Projeto]",
+              "RelativeToolTip": "UrnaEletronica\\View\\Votacao\\Urna.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T21:44:08.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\B\u00E1rbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\UrnaEletronica\\Program.cs",
               "RelativeDocumentMoniker": "UrnaEletronica\\Program.cs",
@@ -79,8 +150,7 @@
               "RelativeToolTip": "UrnaEletronica\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T00:01:15.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T00:01:15.01Z"
             }
           ]
         }

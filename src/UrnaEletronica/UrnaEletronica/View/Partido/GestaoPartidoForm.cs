@@ -16,5 +16,10 @@ namespace UrnaEletronica.View.Coligacao
         {
             InitializeComponent();
         }
+
+        private void GestaoEleicaoForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
