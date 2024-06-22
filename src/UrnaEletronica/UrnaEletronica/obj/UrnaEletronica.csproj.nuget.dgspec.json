@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj": {}
+    "D:\\Bárbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj": {}
   },
   "projects": {
-    "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj": {
+    "D:\\Bárbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj",
+        "projectUniqueName": "D:\\Bárbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj",
         "projectName": "UrnaEletronica",
-        "projectPath": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj",
-        "packagesPath": "C:\\Users\\Matheus Canuto\\.nuget\\packages\\",
-        "outputPath": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final\\src\\UrnaEletronica\\UrnaEletronica\\obj\\",
+        "projectPath": "D:\\Bárbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj",
+        "packagesPath": "C:\\Users\\Barbara Xavier\\.nuget\\packages\\",
+        "outputPath": "D:\\Bárbara\\FACULDADE BARBARA\\Trabalhos e ATV - 4 semestre\\TRABALHO POO\\src\\UrnaEletronica\\UrnaEletronica\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Matheus Canuto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Barbara Xavier\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
