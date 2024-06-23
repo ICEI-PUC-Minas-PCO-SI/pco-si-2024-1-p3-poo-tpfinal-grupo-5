@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj": {}
+    "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj": {}
   },
   "projects": {
-    "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj": {
+    "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj",
+        "projectUniqueName": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj",
         "projectName": "UrnaEletronica",
-        "projectPath": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj",
+        "projectPath": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\UrnaEletronica.csproj",
         "packagesPath": "C:\\Users\\Matheus Canuto\\.nuget\\packages\\",
-        "outputPath": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final\\src\\UrnaEletronica\\UrnaEletronica\\obj\\",
+        "outputPath": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Matheus Canuto\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,10 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"

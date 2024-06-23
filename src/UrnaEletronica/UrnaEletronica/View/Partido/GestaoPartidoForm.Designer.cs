@@ -1,24 +1,24 @@
 ﻿namespace UrnaEletronica.View.Coligacao
 {
-    partial class GestaoEleicaoForm
+    partial class GestaoPartidoForm
     {
         /// <summary>
         /// Required designer variable.
         /// </summary>
-        private System.ComponentModel.IContainer components = null;
+        //private System.ComponentModel.IContainer components = null;
 
         /// <summary>
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+        //protected override void Dispose(bool disposing)
+        //{
+            //if (disposing && (components != null))
+           // {
+                //components.Dispose();
+           // }
+            //base.Dispose(disposing);
+       // }
 
         #region Windows Form Designer generated code
 
@@ -28,12 +28,206 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "GestaoColigacaoForm";
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GestaoPartidoForm));
+            label4 = new Label();
+            panel1 = new Panel();
+            textBox3 = new TextBox();
+            textBox2 = new TextBox();
+            textBox1 = new TextBox();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
+            button4 = new Button();
+            button3 = new Button();
+            dataGridView1 = new DataGridView();
+            button2 = new Button();
+            button1 = new Button();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            SuspendLayout();
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Inter", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.ForeColor = SystemColors.ActiveCaptionText;
+            label4.Location = new Point(19, 23);
+            label4.Name = "label4";
+            label4.Size = new Size(311, 36);
+            label4.TabIndex = 0;
+            label4.Text = "Gestão dos Partidos";
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.FromArgb(36, 111, 51);
+            panel1.Controls.Add(label4);
+            panel1.Location = new Point(1, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(818, 81);
+            panel1.TabIndex = 12;
+            // 
+            // textBox3
+            // 
+            textBox3.BorderStyle = BorderStyle.FixedSingle;
+            textBox3.Location = new Point(64, 159);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(195, 27);
+            textBox3.TabIndex = 23;
+            // 
+            // textBox2
+            // 
+            textBox2.BorderStyle = BorderStyle.FixedSingle;
+            textBox2.Location = new Point(555, 158);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(195, 27);
+            textBox2.TabIndex = 22;
+            // 
+            // textBox1
+            // 
+            textBox1.BorderStyle = BorderStyle.FixedSingle;
+            textBox1.Location = new Point(308, 158);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(195, 27);
+            textBox1.TabIndex = 21;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Inter", 9F);
+            label3.Location = new Point(555, 136);
+            label3.Name = "label3";
+            label3.Size = new Size(66, 19);
+            label3.TabIndex = 20;
+            label3.Text = "Número";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Inter", 9F);
+            label2.Location = new Point(308, 136);
+            label2.Name = "label2";
+            label2.Size = new Size(61, 19);
+            label2.TabIndex = 19;
+            label2.Text = "Partido";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Inter", 9F);
+            label1.Location = new Point(64, 136);
+            label1.Name = "label1";
+            label1.Size = new Size(51, 19);
+            label1.TabIndex = 18;
+            label1.Text = "Nome";
+            // 
+            // button4
+            // 
+            button4.BackColor = Color.FromArgb(35, 92, 40);
+            button4.Cursor = Cursors.Hand;
+            button4.FlatStyle = FlatStyle.Popup;
+            button4.Font = new Font("Inter", 9F);
+            button4.ForeColor = SystemColors.ActiveCaptionText;
+            button4.Location = new Point(569, 523);
+            button4.Name = "button4";
+            button4.RightToLeft = RightToLeft.No;
+            button4.Size = new Size(181, 36);
+            button4.TabIndex = 28;
+            button4.Text = "Salvar";
+            button4.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.FromArgb(184, 16, 20);
+            button3.Cursor = Cursors.Hand;
+            button3.FlatStyle = FlatStyle.Popup;
+            button3.Font = new Font("Inter", 9F);
+            button3.ForeColor = SystemColors.ActiveCaptionText;
+            button3.Location = new Point(64, 523);
+            button3.Name = "button3";
+            button3.Size = new Size(159, 36);
+            button3.TabIndex = 27;
+            button3.Text = "Excluir";
+            button3.UseVisualStyleBackColor = false;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.BackgroundColor = Color.LightGray;
+            dataGridView1.BorderStyle = BorderStyle.Fixed3D;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(64, 308);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(686, 188);
+            dataGridView1.TabIndex = 26;
+            // 
+            // button2
+            // 
+            button2.BackColor = SystemColors.ButtonHighlight;
+            button2.Cursor = Cursors.Hand;
+            button2.FlatStyle = FlatStyle.Popup;
+            button2.Font = new Font("Inter", 9F);
+            button2.Location = new Point(421, 236);
+            button2.Name = "button2";
+            button2.RightToLeft = RightToLeft.No;
+            button2.Size = new Size(169, 36);
+            button2.TabIndex = 25;
+            button2.Text = "Editar";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            button1.BackColor = SystemColors.ButtonHighlight;
+            button1.Cursor = Cursors.Hand;
+            button1.FlatStyle = FlatStyle.Popup;
+            button1.Font = new Font("Inter", 9F);
+            button1.Location = new Point(206, 236);
+            button1.Name = "button1";
+            button1.RightToLeft = RightToLeft.No;
+            button1.Size = new Size(181, 36);
+            button1.TabIndex = 24;
+            button1.Text = "Pesquisar";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // GestaoEleicaoForm
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(817, 606);
+            Controls.Add(button4);
+            Controls.Add(button3);
+            Controls.Add(dataGridView1);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(textBox3);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(panel1);
+            Name = "GestaoEleicaoForm";
+            Text = "GestaoColigacaoForm";
+            Load += GestaoEleicaoForm_Load;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+        private Label label4;
+        private Panel panel1;
+        private TextBox textBox3;
+        private TextBox textBox2;
+        private TextBox textBox1;
+        private Label label3;
+        private Label label2;
+        private Label label1;
+        private Button button4;
+        private Button button3;
+        private DataGridView dataGridView1;
+        private Button button2;
+        private Button button1;
     }
 }
