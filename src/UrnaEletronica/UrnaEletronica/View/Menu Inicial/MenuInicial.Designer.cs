@@ -1,6 +1,6 @@
 ﻿namespace UrnaEletronica.View.Menu_Inicial
 {
-    partial class MenuInicial
+    partial class MenuPrincipalForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuInicial));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuPrincipalForm));
             cadastrarEleicao = new Button();
             cadastrarColigacao = new Button();
             cadastrarPartido = new Button();
@@ -40,12 +40,13 @@
             // cadastrarEleicao
             // 
             cadastrarEleicao.FlatStyle = FlatStyle.Popup;
-            cadastrarEleicao.Font = new Font("Inter", 9F);
+            cadastrarEleicao.Font = new Font("Microsoft Sans Serif", 9F);
             cadastrarEleicao.ImageAlign = ContentAlignment.BottomLeft;
             cadastrarEleicao.ImageKey = "(nenhum)";
-            cadastrarEleicao.Location = new Point(233, 152);
+            cadastrarEleicao.Location = new Point(204, 114);
+            cadastrarEleicao.Margin = new Padding(3, 2, 3, 2);
             cadastrarEleicao.Name = "cadastrarEleicao";
-            cadastrarEleicao.Size = new Size(268, 41);
+            cadastrarEleicao.Size = new Size(234, 31);
             cadastrarEleicao.TabIndex = 1;
             cadastrarEleicao.Text = "Cadastrar eleição";
             cadastrarEleicao.UseVisualStyleBackColor = true;
@@ -53,10 +54,11 @@
             // cadastrarColigacao
             // 
             cadastrarColigacao.FlatStyle = FlatStyle.Popup;
-            cadastrarColigacao.Font = new Font("Inter", 9F);
-            cadastrarColigacao.Location = new Point(233, 222);
+            cadastrarColigacao.Font = new Font("Microsoft Sans Serif", 9F);
+            cadastrarColigacao.Location = new Point(204, 166);
+            cadastrarColigacao.Margin = new Padding(3, 2, 3, 2);
             cadastrarColigacao.Name = "cadastrarColigacao";
-            cadastrarColigacao.Size = new Size(268, 41);
+            cadastrarColigacao.Size = new Size(234, 31);
             cadastrarColigacao.TabIndex = 3;
             cadastrarColigacao.Text = "Cadastrar coligação";
             cadastrarColigacao.UseVisualStyleBackColor = true;
@@ -64,10 +66,11 @@
             // cadastrarPartido
             // 
             cadastrarPartido.FlatStyle = FlatStyle.Popup;
-            cadastrarPartido.Font = new Font("Inter", 9F);
-            cadastrarPartido.Location = new Point(233, 290);
+            cadastrarPartido.Font = new Font("Microsoft Sans Serif", 9F);
+            cadastrarPartido.Location = new Point(204, 218);
+            cadastrarPartido.Margin = new Padding(3, 2, 3, 2);
             cadastrarPartido.Name = "cadastrarPartido";
-            cadastrarPartido.Size = new Size(268, 41);
+            cadastrarPartido.Size = new Size(234, 31);
             cadastrarPartido.TabIndex = 4;
             cadastrarPartido.Text = "Cadastrar partido";
             cadastrarPartido.UseVisualStyleBackColor = true;
@@ -75,10 +78,11 @@
             // cadastrarCandidato
             // 
             cadastrarCandidato.FlatStyle = FlatStyle.Popup;
-            cadastrarCandidato.Font = new Font("Inter", 9F);
-            cadastrarCandidato.Location = new Point(233, 361);
+            cadastrarCandidato.Font = new Font("Microsoft Sans Serif", 9F);
+            cadastrarCandidato.Location = new Point(204, 271);
+            cadastrarCandidato.Margin = new Padding(3, 2, 3, 2);
             cadastrarCandidato.Name = "cadastrarCandidato";
-            cadastrarCandidato.Size = new Size(268, 41);
+            cadastrarCandidato.Size = new Size(234, 31);
             cadastrarCandidato.TabIndex = 5;
             cadastrarCandidato.Text = "Cadastrar candidato";
             cadastrarCandidato.UseVisualStyleBackColor = true;
@@ -86,25 +90,27 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(-35, -27);
+            pictureBox1.Location = new Point(-31, -20);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(821, 593);
+            pictureBox1.Size = new Size(718, 445);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
             // 
-            // MenuInicial
+            // MenuPrincipalForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonFace;
-            ClientSize = new Size(731, 516);
+            ClientSize = new Size(640, 387);
             Controls.Add(cadastrarCandidato);
             Controls.Add(cadastrarPartido);
             Controls.Add(cadastrarColigacao);
             Controls.Add(cadastrarEleicao);
             Controls.Add(pictureBox1);
-            Name = "MenuInicial";
+            Margin = new Padding(3, 2, 3, 2);
+            Name = "MenuPrincipalForm";
             Text = "MenuInicial";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
