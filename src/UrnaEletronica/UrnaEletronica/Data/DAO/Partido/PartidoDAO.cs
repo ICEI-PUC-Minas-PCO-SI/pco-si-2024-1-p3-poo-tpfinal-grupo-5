@@ -8,9 +8,9 @@ using UrnaEletronica.Model;
 
 namespace UrnaEletronica.Data.DAO.Partido
 {
-    class PartidoDAO
+    static class PartidoDAO
     {
-        public PartidoModel BuscarPartido (int idPartido)
+        public static PartidoModel BuscarPartido (int idPartido)
         {
             PartidoModel partido = new PartidoModel();
 
@@ -40,7 +40,7 @@ namespace UrnaEletronica.Data.DAO.Partido
             return partido;
         }
 
-        public List<PartidoModel> BuscarPartidoLista()
+        public static List<PartidoModel> BuscarPartidoLista()
         {
             List<PartidoModel> partidoList = new List<PartidoModel>();
 
@@ -71,7 +71,7 @@ namespace UrnaEletronica.Data.DAO.Partido
             return partidoList;
         }
 
-        public void CadastrarPartido(PartidoModel p)
+        public static void CadastrarPartido(PartidoModel p)
         {
             using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
             {
@@ -90,7 +90,7 @@ namespace UrnaEletronica.Data.DAO.Partido
             }
         }
 
-        public void AtualizarPartido(string nome, string sigla, int id_coligacao, int idPartido)
+        public static void AtualizarPartido(string nome, string sigla, int id_coligacao, int idPartido)
         {
             using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
             {
@@ -110,7 +110,7 @@ namespace UrnaEletronica.Data.DAO.Partido
             }
         }
 
-        public void DeletarPartido(int idPartido)
+        public static void DeletarPartido(int idPartido)
         {
             using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
             {

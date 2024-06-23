@@ -130,55 +130,75 @@ namespace UrnaEletronica.Data.DAO.Eleicao
             }
         }
 
-        public static EleicaoDTO comecaEleicao(int id)
+        private static bool ExisteEleicao(int idCandidato, int idEleicao)
         {
-            EleicaoDTO eleicao = new EleicaoDTO();
+            int aux = 0;
 
             using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
             {
                 connection.Open();
 
-                string query = @"
-                SELECT 
-                    c.nome AS coligacao_nome,
-                    p.nome AS partido_nome,
-                    p.sigla AS partido_sigla,
-                    cand.nome AS candidato_nome,
-                    cand.numero AS candidato_numero,
-                    e.ano AS eleicao_ano,
-                    e.tipo AS eleicao_tipo
-                FROM 
-                    eleicao e
-                JOIN 
-                    eleicao_partido ep ON e.id_eleicao = ep.id_eleicao
-                JOIN 
-                    partido p ON ep.id_partido = p.id_partido
-                JOIN 
-                    coligacao c ON p.id_coligacao = c.id_coligacao
-                JOIN 
-                    candidato cand ON p.id_partido = cand.id_partido
-                WHERE 
-                    e.id_eleicao = @id;
-                ";
+                string query = @"SELECT Count(*) FROM eleicao_candidato WHERE id_candidato = @idCandidato
+                    AND id_eleicao = @idEleicao;";
 
                 using (MySqlCommand command = new MySqlCommand(query, connection))
                 {
-                    command.Parameters.AddWithValue("@id", id);
+                    command.Parameters.AddWithValue("@idCandidato", idCandidato);
+                    command.Parameters.AddWithValue("@idEleicao", idEleicao);
 
                     using (MySqlDataReader reader = command.ExecuteReader())
                     {
                         if (reader.Read())
                         {
-                            eleicao.id_eleicao = reader.GetInt32("id_eleicao");
-                            eleicao.ano = reader.GetInt32("ano");
-                            eleicao.tipo = reader.GetString("tipo");
-                            eleicao.total_votos = reader.GetInt32("total_votos");
+                            aux = reader.GetInt32("count(*)");
+
                         }
                     }
                 }
             }
 
-            return eleicao;
+            return aux > 0 ? true : false;
         }
+
+        public static void ContaVotoCandidato(int idCandidato, int idEleicao)
+        {
+            if(ExisteEleicao(idCandidato, idEleicao))
+            {
+                using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
+                {
+                    connection.Open();
+
+                    string query = @"UPDATE eleicao_candidato SET quantidade_votos = quantidade_votos + 1 WHERE id_candidato = @idCandidato
+                    AND id_eleicao = @idEleicao";
+
+                    using (MySqlCommand command = new MySqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@idCandidato", idCandidato);
+                        command.Parameters.AddWithValue("@idEleicao", idEleicao);
+
+                        command.ExecuteNonQuery();
+                    }
+                }
+            }
+            else
+            {
+                using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
+                {
+                    connection.Open();
+
+                    string query = @"INSERT INTO eleicao_candidato (id_candidato, id_eleicao, quantidade_votos) 
+                                    VALUES (@id_candidato, @id_eleicao, 1)";
+
+                    using (MySqlCommand command = new MySqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@id_candidato", idCandidato);
+                        command.Parameters.AddWithValue("@id_eleicao", idEleicao);
+
+                        command.ExecuteNonQuery();
+                    }
+                }
+            }
+        }
+
     }
 }

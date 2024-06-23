@@ -9,6 +9,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
 using UrnaEletronica.Model;
+using UrnaEletronica.Data.DAO.Candidato;
+using UrnaEletronica.Data.DAO.Partido;
+using UrnaEletronica.Data.DAO.Eleicao;
+using UrnaEletronica.Data.DTO.Candidato;
 
 namespace UrnaEletronica.View.Votacao
 {
@@ -17,9 +21,12 @@ namespace UrnaEletronica.View.Votacao
         private System.Windows.Forms.Timer relogio;
         private string voto = "";
         private bool mantemEleicao = true;
+        private EleicaoModel eleicao;
+
         public Urna(EleicaoModel ele)
         {
             InitializeComponent();
+            eleicao = ele;
             lblAno.Text = Convert.ToString(ele.ano);
             Tipo.Text = ele.tipo;
             RodaEleicao();
@@ -29,7 +36,7 @@ namespace UrnaEletronica.View.Votacao
 
         private void RodaEleicao()
         {
-            if(tipoCandidato.Text == "Legislativo")
+            if(tipoCandidato.Text == "Executivo")
             {
                 tipoCandidato.Text = "Vereador";
             } else
@@ -156,7 +163,12 @@ namespace UrnaEletronica.View.Votacao
                 {
                     if(Voto.Length == 2)
                     {
+                        CandidatoModel c = CandidatoDAO.BuscarCandidatoNumero(Convert.ToInt32(txtVoto.Text));
+                        lblNomeCandidato.Text = c.nome;
+                        PartidoModel p = PartidoDAO.BuscarPartido(c.id_partido);
+                        lblPartidoCandidato.Text = p.sigla;
 
+                        EleicaoDAO.ContaVotoCandidato(c.IdCandidato, eleicao.id_eleicao);
                     }
                     else
                     {
@@ -186,7 +198,17 @@ namespace UrnaEletronica.View.Votacao
 
         private void txtVoto_TextChanged(object sender, EventArgs e)
         {
+            if(tipoCandidato.Text == "Presidente" && txtVoto.Text.Length == 2)
+            {
+                CandidatoModel c = CandidatoDAO.BuscarCandidatoNumero(Convert.ToInt32(txtVoto.Text));
+                PartidoModel p = PartidoDAO.BuscarPartido(c.id_partido);
+                lblNomeCandidato.Text = c.apelido;
+                lblPartidoCandidato.Text = p.sigla;
 
+
+            }
         }
+
+
     }
 }

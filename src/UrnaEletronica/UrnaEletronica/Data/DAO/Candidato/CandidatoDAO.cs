@@ -9,9 +9,9 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace UrnaEletronica.Data.DAO.Candidato
 {
-    internal class CandidatoDAO
+    static class CandidatoDAO
     {
-        public CandidatoModel BuscarCandidato(int idCandidato)
+        public static CandidatoModel BuscarCandidato(int idCandidato)
         {
             CandidatoModel candidato = new CandidatoModel();
 
@@ -39,7 +39,7 @@ namespace UrnaEletronica.Data.DAO.Candidato
             return candidato;
         }
 
-        public List<CandidatoModel> BuscarCandidato()
+        public static List<CandidatoModel> BuscarCandidato()
         {
             List<CandidatoModel> coligacoes = new List<CandidatoModel>();
 
@@ -68,7 +68,7 @@ namespace UrnaEletronica.Data.DAO.Candidato
             return coligacoes;
         }
 
-        public void CadastrarCandidato(string nomeCandidato, string apelido, int numero, string idPartido)
+        public static void CadastrarCandidato(string nomeCandidato, string apelido, int numero, string idPartido)
         {
             using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
             {
@@ -88,7 +88,7 @@ namespace UrnaEletronica.Data.DAO.Candidato
             }
         }
 
-        public void AtualizarCandidato(string nomeCandidato, string apelido, int numero, string idPartido)
+        public static void AtualizarCandidato(string nomeCandidato, string apelido, int numero, string idPartido)
         {
             using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
             {
@@ -108,7 +108,7 @@ namespace UrnaEletronica.Data.DAO.Candidato
             }
         }
 
-        public void DeletarCandidato(int idCandidato)
+        public static void DeletarCandidato(int idCandidato)
         {
             using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
             {
@@ -124,7 +124,7 @@ namespace UrnaEletronica.Data.DAO.Candidato
                 }
             }
         }
-        public void AdicionarVoto(int id)
+        public static void AdicionarVoto(int id)
         {
             using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
             {
@@ -155,6 +155,34 @@ namespace UrnaEletronica.Data.DAO.Candidato
                     command.ExecuteNonQuery();
                 }
             }
+        }
+
+        public static CandidatoModel BuscarCandidatoNumero(int nCandidato)
+        {
+            CandidatoModel candidato = new CandidatoModel();
+
+            using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
+            {
+                connection.Open();
+
+                string query = "SELECT * FROM candidato WHERE numero = @nCandidato";
+
+                using (MySqlCommand command = new MySqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@idCandidato", nCandidato);
+
+                    using (MySqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            candidato.IdCandidato = reader.GetInt32("idCandidato");
+                            candidato.nome = reader.GetString("nome");
+                        }
+                    }
+                }
+            }
+
+            return candidato;
         }
     }
 }
