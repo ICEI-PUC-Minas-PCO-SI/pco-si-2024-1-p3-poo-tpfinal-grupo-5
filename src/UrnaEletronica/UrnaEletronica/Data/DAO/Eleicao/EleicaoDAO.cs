@@ -10,7 +10,7 @@ namespace UrnaEletronica.Data.DAO.Eleicao
 {
     static class EleicaoDAO
     {
-        public static EleicaoModel BuscarEleicao(int ano, string tipo)
+        public static EleicaoModel BuscarEleicao(int ano)
         {
             EleicaoModel eleicao = new EleicaoModel();
 
@@ -18,20 +18,18 @@ namespace UrnaEletronica.Data.DAO.Eleicao
             {
                 connection.Open();
 
-                string query = "SELECT * FROM eleicao WHERE ano = @ano and tipo = @tipo;";
+                string query = "SELECT * FROM eleicao WHERE ano = @ano;";
 
                 using (MySqlCommand command = new MySqlCommand(query, connection))
                 {
                     command.Parameters.AddWithValue("@ano", ano);
-                    command.Parameters.AddWithValue("@tipo", tipo);
 
                     using (MySqlDataReader reader = command.ExecuteReader())
                     {
                         if (reader.Read())
                         {
-                            
                             eleicao.id_eleicao = reader.GetInt32("id_eleicao");
-                            eleicao.ano = reader.GetInt32("id_coligacao");
+                            eleicao.ano = reader.GetInt32("ano");
                             eleicao.tipo = reader.GetString("tipo");
                             eleicao.total_votos = reader.GetInt32("total_votos");
                         }

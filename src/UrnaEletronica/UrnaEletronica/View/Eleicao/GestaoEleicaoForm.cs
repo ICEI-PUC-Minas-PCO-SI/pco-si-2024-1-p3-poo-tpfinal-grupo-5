@@ -45,8 +45,9 @@ namespace UrnaEletronica.View.Eleicao
         {
             try
             {
-                dgvEleicao.DataSource = EleicaoDAO.BuscarEleicao(Convert.ToInt32(txtAno.Text), txtTipo.Text);
-            } catch(Exception ex)
+                dgvEleicao.DataSource = EleicaoDAO.BuscarEleicao(Convert.ToInt32(txtAno.Text));
+            } 
+            catch(Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }

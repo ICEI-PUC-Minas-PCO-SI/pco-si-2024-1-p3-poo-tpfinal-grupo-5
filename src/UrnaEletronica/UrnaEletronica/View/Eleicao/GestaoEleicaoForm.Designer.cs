@@ -39,6 +39,7 @@
             btnEditar = new Button();
             button1 = new Button();
             txtTipo = new TextBox();
+            comboBox1 = new ComboBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvEleicao).BeginInit();
             SuspendLayout();
@@ -177,12 +178,21 @@
             txtTipo.Size = new Size(171, 23);
             txtTipo.TabIndex = 15;
             // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(289, 181);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(121, 23);
+            comboBox1.TabIndex = 23;
+            // 
             // GestaoEleicaoForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(229, 229, 229);
             ClientSize = new Size(715, 454);
+            Controls.Add(comboBox1);
             Controls.Add(btnEnviar);
             Controls.Add(btnExcluir);
             Controls.Add(dgvEleicao);
@@ -215,5 +225,6 @@
         private Button btnEditar;
         private Button button1;
         private TextBox txtTipo;
+        private ComboBox comboBox1;
     }
 }

@@ -55,6 +55,10 @@
             btnBranco = new Button();
             btnCorrige = new Button();
             btnConfirma = new Button();
+            btn_terminarVotacao = new Button();
+            lblAno = new Label();
+            Tipo = new Label();
+            test = new Label();
             panelPrincipal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)picFotoCandidato).BeginInit();
             SuspendLayout();
@@ -347,12 +351,57 @@
             btnConfirma.UseVisualStyleBackColor = false;
             btnConfirma.Click += btnConfirma_Click;
             // 
+            // btn_terminarVotacao
+            // 
+            btn_terminarVotacao.Location = new Point(538, 12);
+            btn_terminarVotacao.Name = "btn_terminarVotacao";
+            btn_terminarVotacao.Size = new Size(130, 23);
+            btn_terminarVotacao.TabIndex = 14;
+            btn_terminarVotacao.Text = "Terminar votação";
+            btn_terminarVotacao.UseVisualStyleBackColor = true;
+            btn_terminarVotacao.Click += btn_terminarVotacao_Click;
+            // 
+            // lblAno
+            // 
+            lblAno.AutoSize = true;
+            lblAno.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblAno.ForeColor = SystemColors.ActiveCaptionText;
+            lblAno.Location = new Point(135, 5);
+            lblAno.Name = "lblAno";
+            lblAno.Size = new Size(181, 29);
+            lblAno.TabIndex = 15;
+            lblAno.Text = "Iniciar votação";
+            // 
+            // Tipo
+            // 
+            Tipo.AutoSize = true;
+            Tipo.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Tipo.ForeColor = SystemColors.ActiveCaptionText;
+            Tipo.Location = new Point(346, 5);
+            Tipo.Name = "Tipo";
+            Tipo.Size = new Size(181, 29);
+            Tipo.TabIndex = 16;
+            Tipo.Text = "Iniciar votação";
+            // 
+            // test
+            // 
+            test.AutoSize = true;
+            test.Location = new Point(319, 86);
+            test.Name = "test";
+            test.Size = new Size(38, 15);
+            test.TabIndex = 17;
+            test.Text = "label4";
+            // 
             // Urna
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(696, 450);
+            Controls.Add(test);
+            Controls.Add(Tipo);
+            Controls.Add(lblAno);
+            Controls.Add(btn_terminarVotacao);
             Controls.Add(btnConfirma);
             Controls.Add(btnCorrige);
             Controls.Add(btnBranco);
@@ -373,6 +422,7 @@
             panelPrincipal.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)picFotoCandidato).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -403,5 +453,9 @@
         private Button btnBranco;
         private Button btnCorrige;
         private Button btnConfirma;
+        private Button btn_terminarVotacao;
+        private Label lblAno;
+        private Label Tipo;
+        private Label test;
     }
 }
