@@ -8,9 +8,9 @@ using UrnaEletronica.Model;
 
 namespace UrnaEletronica.Data.DAO.Eleicao
 {
-    class EleicaoDAO
+    static class EleicaoDAO
     {
-        public EleicaoModel BuscarEleicao(int idEleicao)
+        public static EleicaoModel BuscarEleicao(int ano, string tipo)
         {
             EleicaoModel eleicao = new EleicaoModel();
 
@@ -18,16 +18,18 @@ namespace UrnaEletronica.Data.DAO.Eleicao
             {
                 connection.Open();
 
-                string query = "SELECT * FROM eleicao WHERE id_eleicao = @idEleicao";
+                string query = "SELECT * FROM eleicao WHERE ano = @ano and tipo = @tipo;";
 
                 using (MySqlCommand command = new MySqlCommand(query, connection))
                 {
-                    command.Parameters.AddWithValue("@idEleicao", idEleicao);
+                    command.Parameters.AddWithValue("@ano", ano);
+                    command.Parameters.AddWithValue("@tipo", tipo);
 
                     using (MySqlDataReader reader = command.ExecuteReader())
                     {
                         if (reader.Read())
                         {
+                            
                             eleicao.id_eleicao = reader.GetInt32("id_eleicao");
                             eleicao.ano = reader.GetInt32("id_coligacao");
                             eleicao.tipo = reader.GetString("tipo");
@@ -40,7 +42,7 @@ namespace UrnaEletronica.Data.DAO.Eleicao
             return eleicao;
         }
 
-        public List<EleicaoModel> BuscarListaEleicao()
+        public static List<EleicaoModel> BuscarListaEleicao()
         {
             List<EleicaoModel> eleicaoList = new List<EleicaoModel>();
 
@@ -72,7 +74,7 @@ namespace UrnaEletronica.Data.DAO.Eleicao
             return eleicaoList;
         }
 
-        public void CadastrarEleicao(int ano, string tipo, int total_votos)
+        public static void CadastrarEleicao(int ano, string tipo, int total_votos)
         {
             using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
             {
@@ -91,7 +93,7 @@ namespace UrnaEletronica.Data.DAO.Eleicao
             }
         }
 
-        public void AtualizarEleicao(EleicaoModel e)
+        public static void AtualizarEleicao(EleicaoModel e)
         {
             using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
             {
@@ -111,7 +113,7 @@ namespace UrnaEletronica.Data.DAO.Eleicao
             }
         }
 
-        public void DeletarEleicao(int idEleicao)
+        public static void DeletarEleicao(int idEleicao)
         {
             using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
             {

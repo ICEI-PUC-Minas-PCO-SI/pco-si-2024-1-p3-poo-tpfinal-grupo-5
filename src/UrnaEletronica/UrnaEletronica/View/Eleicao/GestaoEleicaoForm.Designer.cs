@@ -30,19 +30,17 @@
         {
             panel1 = new Panel();
             label4 = new Label();
-            textBox3 = new TextBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
-            label3 = new Label();
+            txtAno = new TextBox();
             label2 = new Label();
             label1 = new Label();
-            button4 = new Button();
-            button3 = new Button();
-            dataGridView1 = new DataGridView();
-            button2 = new Button();
+            btnEnviar = new Button();
+            btnExcluir = new Button();
+            dgvEleicao = new DataGridView();
+            btnEditar = new Button();
             button1 = new Button();
+            txtTipo = new TextBox();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvEleicao).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -50,167 +48,157 @@
             panel1.BackColor = Color.FromArgb(36, 111, 51);
             panel1.Controls.Add(label4);
             panel1.Location = new Point(0, -2);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(818, 81);
+            panel1.Size = new Size(716, 61);
             panel1.TabIndex = 11;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Inter", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = SystemColors.ActiveCaptionText;
-            label4.Location = new Point(19, 23);
+            label4.Location = new Point(17, 17);
             label4.Name = "label4";
-            label4.Size = new Size(310, 36);
+            label4.Size = new Size(254, 29);
             label4.TabIndex = 0;
             label4.Text = "Gestão das Eleições";
             // 
-            // textBox3
+            // txtAno
             // 
-            textBox3.BorderStyle = BorderStyle.FixedSingle;
-            textBox3.Location = new Point(69, 152);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(195, 27);
-            textBox3.TabIndex = 17;
-            // 
-            // textBox2
-            // 
-            textBox2.BorderStyle = BorderStyle.FixedSingle;
-            textBox2.Location = new Point(560, 151);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(195, 27);
-            textBox2.TabIndex = 16;
-            // 
-            // textBox1
-            // 
-            textBox1.BorderStyle = BorderStyle.FixedSingle;
-            textBox1.Location = new Point(313, 151);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(195, 27);
-            textBox1.TabIndex = 15;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Inter", 9F);
-            label3.Location = new Point(560, 129);
-            label3.Name = "label3";
-            label3.Size = new Size(66, 19);
-            label3.TabIndex = 14;
-            label3.Text = "Número";
-            label3.Click += label3_Click;
+            txtAno.BorderStyle = BorderStyle.FixedSingle;
+            txtAno.Location = new Point(60, 114);
+            txtAno.Margin = new Padding(3, 2, 3, 2);
+            txtAno.Name = "txtAno";
+            txtAno.Size = new Size(170, 23);
+            txtAno.TabIndex = 17;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Inter", 9F);
-            label2.Location = new Point(313, 129);
+            label2.Font = new Font("Microsoft Sans Serif", 9F);
+            label2.Location = new Point(274, 97);
             label2.Name = "label2";
-            label2.Size = new Size(61, 19);
+            label2.Size = new Size(31, 15);
             label2.TabIndex = 13;
-            label2.Text = "Partido";
+            label2.Text = "Tipo";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Inter", 9F);
-            label1.Location = new Point(69, 129);
+            label1.Font = new Font("Microsoft Sans Serif", 9F);
+            label1.Location = new Point(60, 97);
             label1.Name = "label1";
-            label1.Size = new Size(51, 19);
+            label1.Size = new Size(28, 15);
             label1.TabIndex = 12;
-            label1.Text = "Nome";
+            label1.Text = "Ano";
             // 
-            // button4
+            // btnEnviar
             // 
-            button4.BackColor = Color.FromArgb(35, 92, 40);
-            button4.Cursor = Cursors.Hand;
-            button4.FlatStyle = FlatStyle.Popup;
-            button4.Font = new Font("Inter", 9F);
-            button4.ForeColor = SystemColors.ActiveCaptionText;
-            button4.Location = new Point(574, 523);
-            button4.Name = "button4";
-            button4.RightToLeft = RightToLeft.No;
-            button4.Size = new Size(181, 36);
-            button4.TabIndex = 22;
-            button4.Text = "Salvar";
-            button4.UseVisualStyleBackColor = false;
+            btnEnviar.BackColor = Color.FromArgb(35, 92, 40);
+            btnEnviar.Cursor = Cursors.Hand;
+            btnEnviar.FlatStyle = FlatStyle.Popup;
+            btnEnviar.Font = new Font("Microsoft Sans Serif", 9F);
+            btnEnviar.ForeColor = SystemColors.ButtonHighlight;
+            btnEnviar.Location = new Point(512, 110);
+            btnEnviar.Margin = new Padding(3, 2, 3, 2);
+            btnEnviar.Name = "btnEnviar";
+            btnEnviar.RightToLeft = RightToLeft.No;
+            btnEnviar.Size = new Size(148, 27);
+            btnEnviar.TabIndex = 22;
+            btnEnviar.Text = "Enviar";
+            btnEnviar.UseVisualStyleBackColor = false;
+            btnEnviar.Click += button4_Click;
             // 
-            // button3
+            // btnExcluir
             // 
-            button3.BackColor = Color.FromArgb(184, 16, 20);
-            button3.Cursor = Cursors.Hand;
-            button3.FlatStyle = FlatStyle.Popup;
-            button3.Font = new Font("Inter", 9F);
-            button3.ForeColor = SystemColors.ActiveCaptionText;
-            button3.Location = new Point(69, 523);
-            button3.Name = "button3";
-            button3.Size = new Size(159, 36);
-            button3.TabIndex = 21;
-            button3.Text = "Excluir";
-            button3.UseVisualStyleBackColor = false;
+            btnExcluir.BackColor = Color.FromArgb(184, 16, 20);
+            btnExcluir.Cursor = Cursors.Hand;
+            btnExcluir.FlatStyle = FlatStyle.Popup;
+            btnExcluir.Font = new Font("Microsoft Sans Serif", 9F);
+            btnExcluir.ForeColor = SystemColors.ActiveCaptionText;
+            btnExcluir.Location = new Point(60, 392);
+            btnExcluir.Margin = new Padding(3, 2, 3, 2);
+            btnExcluir.Name = "btnExcluir";
+            btnExcluir.Size = new Size(139, 27);
+            btnExcluir.TabIndex = 21;
+            btnExcluir.Text = "Excluir";
+            btnExcluir.UseVisualStyleBackColor = false;
             // 
-            // dataGridView1
+            // dgvEleicao
             // 
-            dataGridView1.BackgroundColor = Color.LightGray;
-            dataGridView1.BorderStyle = BorderStyle.Fixed3D;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(69, 308);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(686, 188);
-            dataGridView1.TabIndex = 20;
+            dgvEleicao.BackgroundColor = Color.LightGray;
+            dgvEleicao.BorderStyle = BorderStyle.Fixed3D;
+            dgvEleicao.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvEleicao.Location = new Point(60, 231);
+            dgvEleicao.Margin = new Padding(3, 2, 3, 2);
+            dgvEleicao.Name = "dgvEleicao";
+            dgvEleicao.RowHeadersWidth = 51;
+            dgvEleicao.Size = new Size(600, 141);
+            dgvEleicao.TabIndex = 20;
             // 
-            // button2
+            // btnEditar
             // 
-            button2.BackColor = SystemColors.ButtonHighlight;
-            button2.Cursor = Cursors.Hand;
-            button2.FlatStyle = FlatStyle.Popup;
-            button2.Font = new Font("Inter", 9F);
-            button2.Location = new Point(426, 236);
-            button2.Name = "button2";
-            button2.RightToLeft = RightToLeft.No;
-            button2.Size = new Size(169, 36);
-            button2.TabIndex = 19;
-            button2.Text = "Editar";
-            button2.UseVisualStyleBackColor = false;
+            btnEditar.BackColor = SystemColors.ButtonHighlight;
+            btnEditar.Cursor = Cursors.Hand;
+            btnEditar.FlatStyle = FlatStyle.Popup;
+            btnEditar.Font = new Font("Microsoft Sans Serif", 9F);
+            btnEditar.Location = new Point(512, 177);
+            btnEditar.Margin = new Padding(3, 2, 3, 2);
+            btnEditar.Name = "btnEditar";
+            btnEditar.RightToLeft = RightToLeft.No;
+            btnEditar.Size = new Size(148, 27);
+            btnEditar.TabIndex = 19;
+            btnEditar.Text = "Editar";
+            btnEditar.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
             button1.BackColor = SystemColors.ButtonHighlight;
             button1.Cursor = Cursors.Hand;
             button1.FlatStyle = FlatStyle.Popup;
-            button1.Font = new Font("Inter", 9F);
-            button1.Location = new Point(211, 236);
+            button1.Font = new Font("Microsoft Sans Serif", 9F);
+            button1.Location = new Point(60, 177);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
             button1.RightToLeft = RightToLeft.No;
-            button1.Size = new Size(181, 36);
+            button1.Size = new Size(148, 27);
             button1.TabIndex = 18;
             button1.Text = "Pesquisar";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
+            // txtTipo
+            // 
+            txtTipo.BorderStyle = BorderStyle.FixedSingle;
+            txtTipo.Location = new Point(274, 113);
+            txtTipo.Margin = new Padding(3, 2, 3, 2);
+            txtTipo.Name = "txtTipo";
+            txtTipo.Size = new Size(171, 23);
+            txtTipo.TabIndex = 15;
             // 
             // GestaoEleicaoForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(229, 229, 229);
-            ClientSize = new Size(817, 606);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(dataGridView1);
-            Controls.Add(button2);
+            ClientSize = new Size(715, 454);
+            Controls.Add(btnEnviar);
+            Controls.Add(btnExcluir);
+            Controls.Add(dgvEleicao);
+            Controls.Add(btnEditar);
             Controls.Add(button1);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(label3);
+            Controls.Add(txtAno);
+            Controls.Add(txtTipo);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(panel1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "GestaoEleicaoForm";
             Text = "GestaoEleicaoForm";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvEleicao).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -218,16 +206,14 @@
         #endregion
         private Panel panel1;
         private Label label4;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private Label label3;
+        private TextBox txtAno;
         private Label label2;
         private Label label1;
-        private Button button4;
-        private Button button3;
-        private DataGridView dataGridView1;
-        private Button button2;
+        private Button btnEnviar;
+        private Button btnExcluir;
+        private DataGridView dgvEleicao;
+        private Button btnEditar;
         private Button button1;
+        private TextBox txtTipo;
     }
 }
