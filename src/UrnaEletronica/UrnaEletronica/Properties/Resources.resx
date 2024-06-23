@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-<<<<<<< HEAD
-  <!-- 
-    Microsoft ResX Schema 
+	
+    <!--
+	Microsoft ResX Schema 
     
     Version 2.0
     
@@ -13,8 +13,6 @@
     
     Example:
     
-=======
-  <!--
     Microsoft ResX Schema 
 
     Version 2.0
@@ -26,9 +24,9 @@
 
     Example:
 
->>>>>>> HigorURNA
+    ... ado.net/XML headers schema ...
     ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
+	<resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
     <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
     <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
@@ -41,9 +39,7 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-<<<<<<< HEAD
-                
-    There are any number of "resheader" rows that contain simple 
+	There are any number of "resheader" rows that contain simple 
     name/value pairs.
     
     Each data row contains a name, and value. The row also contains a 
@@ -62,7 +58,6 @@
     
     mimetype: application/x-microsoft.net.object.binary.base64
     value   : The object must be serialized with 
-=======
 
     There are any number of "resheader" rows that contain simple
     name/value pairs.
@@ -83,28 +78,23 @@
 
     mimetype: application/x-microsoft.net.object.binary.base64
     value   : The object must be serialized with
->>>>>>> HigorURNA
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
-<<<<<<< HEAD
     value   : The object must be serialized with 
-=======
     value   : The object must be serialized with
->>>>>>> HigorURNA
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-<<<<<<< HEAD
     value   : The object must be serialized into a byte array 
-=======
     value   : The object must be serialized into a byte array
->>>>>>> HigorURNA
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
-    -->
+	
+	-->   
+    
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -163,22 +153,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-<<<<<<< HEAD
+
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-<<<<<<< HEAD
+
   <data name="mudanca" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mudança.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-=======
+  </data>
   <data name="fdfgdfgd-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fdfgdfgd-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Brasil Flag Background, Brasil Bandeira, Bandeira, Fundo Imagem de plano de fundo para download gratuito" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Brasil Flag Background, Brasil Bandeira, Bandeira, Fundo Imagem de plano de fundo para download gratuito.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
->>>>>>> 8bd2fd615ae71ebbdf981406a7c1797e42907301
+  <data name="mudança" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mudança.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+
   </data>
   <data name="fdfgdfgd-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fdfgdfgd-removebg-preview2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-=======
->>>>>>> HigorURNA
+
 </root>

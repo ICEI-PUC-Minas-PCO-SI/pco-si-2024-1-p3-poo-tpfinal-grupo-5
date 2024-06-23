@@ -59,13 +59,12 @@ namespace UrnaEletronica.Properties {
                 resourceCulture = value;
             }
         }
-<<<<<<< HEAD
+
         
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
         
-=======
->>>>>>> HigorURNA
+
     }
 }
