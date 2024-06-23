@@ -14,8 +14,7 @@ namespace UrnaEletronica.View.Votacao
 {
     public partial class Urna : Form
     {
-        private Dictionary<string, Candidato> _dicCandidato;
-        private System.Windows.Forms.Timer relogio; // Declarando o Timer
+        private System.Windows.Forms.Timer relogio;
         private string voto = "";
         private bool mantemEleicao = true;
         public Urna(EleicaoModel ele)
@@ -23,24 +22,20 @@ namespace UrnaEletronica.View.Votacao
             InitializeComponent();
             lblAno.Text = Convert.ToString(ele.ano);
             Tipo.Text = ele.tipo;
-            ComecaEleicao();
-            //_dicCandidato = new Dictionary<string, Candidato>();
-            //_dicCandidato.Add("51", new Candidato() { Id = 51, Nome = "Darth Vader", Partido = "Império", Foto = null });
-            //_dicCandidato.Add("52", new Candidato() { Id = 52, Nome = "Chapolin", Partido = "Quase Nada", Foto = null});
-            //_dicCandidato.Add("91", new Candidato() { Id = 91, Nome = "Goku", Partido = "Saijin", Foto = null});
-            //_dicCandidato.Add("92", new Candidato() { Id = 92, Nome = "Homem de Ferro", Partido = "Vingadores", Foto = null });
-            //_dicCandidato.Add("99", new Candidato() { Id = 99, Nome = "Batman", Partido = "Liga da Justiça", Foto = null });
+            RodaEleicao();
 
-            relogio = new System.Windows.Forms.Timer();// Inicializando o Timer
+            relogio = new System.Windows.Forms.Timer();
         }
 
-        private void ComecaEleicao()
+        private void RodaEleicao()
         {
-            while (mantemEleicao)
+            if(tipoCandidato.Text == "Legislativo")
             {
-
+                tipoCandidato.Text = "Vereador";
+            } else
+            {
+                tipoCandidato.Text = "Deputado Federal";
             }
-
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -65,31 +60,12 @@ namespace UrnaEletronica.View.Votacao
 
         private void Limpar()
         {
-            txtDecimal.Text = "";
-            txtUnidade.Text = "";
+            txtVoto.Text = "";
             lblNomeCandidato.Text = String.Empty;
             lblPartidoCandidato.Text = String.Empty;
             picFotoCandidato.Image = null;
         }
 
-        private void RegistrarDigito(string digito)
-        {
-            if (string.IsNullOrEmpty(txtDecimal.Text))
-                txtDecimal.Text = digito;
-            else
-            {
-                txtUnidade.Text = digito;
-                PreencherCandidato(txtDecimal.Text, txtUnidade.Text);
-            }
-
-            //SoundPlayer s = new SoundPlayer(Properties.Resources.clique);
-            // s.Play();
-        }
-
-        private void PreencherCandidato(string d1, string d2)
-        {
-
-        }
 
         private void AcaoFinal(Object? myObject, EventArgs myEventArgs)
         {
@@ -99,63 +75,63 @@ namespace UrnaEletronica.View.Votacao
             panelPrincipal.Visible = true;
         }
 
-        public class Candidato
+        private void ContaVoto(string v)
         {
-            public int Id { get; set; }
-            public string? Nome { get; set; }
-            public string? Partido { get; set; }
-            public Image? Foto { get; set; }
+            if(Tipo.Text == "Legislativo")
+            {
+                
+            }
+            txtVoto.Text += v;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            voto += "1";
+            ContaVoto("1");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            voto += "2";
+            ContaVoto("2");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            voto += "3";
+            ContaVoto("3");
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            voto += "4";
+            ContaVoto("4");
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            voto += "5";
+            ContaVoto("5");
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            voto += "6";
-            RegistrarDigito("6");
+            ContaVoto("6");
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            voto += "7";
+            ContaVoto("7");
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            voto += "8";
+            ContaVoto("8");
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            voto += "9";
+            ContaVoto("9");
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-            voto += "0";
+            ContaVoto("0");
         }
 
         private void btnCorrige_Click(object sender, EventArgs e)
@@ -167,11 +143,26 @@ namespace UrnaEletronica.View.Votacao
 
         private void btnConfirma_Click(object sender, EventArgs e)
         {
-            test.Text = voto;
-            if (string.IsNullOrEmpty(txtDecimal.Text))
+            //test.Text = voto;
+            string Voto = txtVoto.Text;
+            if (string.IsNullOrEmpty(Voto))
             {
                 MessageBox.Show("Favor informar o candidato.");
-                return;
+            }
+            else
+            {
+                string Tipo = tipoCandidato.Text;
+                if(Tipo == "Prefeito")
+                {
+                    if(Voto.Length != 2)
+                    {
+                        MessageBox.Show("Tá fazendo merda, presta atenção");
+                    }
+                    else
+                    {
+
+                    }
+                }
             }
 
             panelPrincipal.Visible = false;
@@ -186,12 +177,16 @@ namespace UrnaEletronica.View.Votacao
             relogio.Interval = 3000;
             relogio.Enabled = true;
             relogio.Start();
-            //InitializeComponent();
         }
 
         private void btn_terminarVotacao_Click(object sender, EventArgs e)
         {
             mantemEleicao = false;
+        }
+
+        private void txtVoto_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

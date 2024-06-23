@@ -35,11 +35,7 @@
             label3 = new Label();
             label2 = new Label();
             picFotoCandidato = new PictureBox();
-            textBox3 = new TextBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
-            txtUnidade = new TextBox();
-            txtDecimal = new TextBox();
+            txtVoto = new TextBox();
             label1 = new Label();
             tipoCandidato = new TextBox();
             button1 = new Button();
@@ -70,11 +66,7 @@
             panelPrincipal.Controls.Add(label3);
             panelPrincipal.Controls.Add(label2);
             panelPrincipal.Controls.Add(picFotoCandidato);
-            panelPrincipal.Controls.Add(textBox3);
-            panelPrincipal.Controls.Add(textBox2);
-            panelPrincipal.Controls.Add(textBox1);
-            panelPrincipal.Controls.Add(txtUnidade);
-            panelPrincipal.Controls.Add(txtDecimal);
+            panelPrincipal.Controls.Add(txtVoto);
             panelPrincipal.Controls.Add(label1);
             panelPrincipal.Controls.Add(tipoCandidato);
             panelPrincipal.Location = new Point(35, 197);
@@ -126,40 +118,15 @@
             picFotoCandidato.TabIndex = 8;
             picFotoCandidato.TabStop = false;
             // 
-            // textBox3
+            // txtVoto
             // 
-            textBox3.Location = new Point(180, 88);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(34, 23);
-            textBox3.TabIndex = 7;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(140, 88);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(34, 23);
-            textBox2.TabIndex = 6;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(100, 88);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(34, 23);
-            textBox1.TabIndex = 5;
-            // 
-            // txtUnidade
-            // 
-            txtUnidade.Location = new Point(53, 88);
-            txtUnidade.Name = "txtUnidade";
-            txtUnidade.Size = new Size(34, 23);
-            txtUnidade.TabIndex = 4;
-            // 
-            // txtDecimal
-            // 
-            txtDecimal.Location = new Point(13, 88);
-            txtDecimal.Name = "txtDecimal";
-            txtDecimal.Size = new Size(34, 23);
-            txtDecimal.TabIndex = 3;
+            txtVoto.Enabled = false;
+            txtVoto.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtVoto.Location = new Point(13, 88);
+            txtVoto.Name = "txtVoto";
+            txtVoto.Size = new Size(200, 33);
+            txtVoto.TabIndex = 3;
+            txtVoto.TextChanged += txtVoto_TextChanged;
             // 
             // label1
             // 
@@ -173,6 +140,7 @@
             // 
             // tipoCandidato
             // 
+            tipoCandidato.Enabled = false;
             tipoCandidato.Location = new Point(70, 20);
             tipoCandidato.Name = "tipoCandidato";
             tipoCandidato.Size = new Size(113, 23);
@@ -386,7 +354,7 @@
             // test
             // 
             test.AutoSize = true;
-            test.Location = new Point(319, 86);
+            test.Location = new Point(609, 75);
             test.Name = "test";
             test.Size = new Size(38, 15);
             test.TabIndex = 17;
@@ -430,11 +398,7 @@
         private Panel panelPrincipal;
         private TextBox tipoCandidato;
         private Label label1;
-        private TextBox txtDecimal;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private TextBox txtUnidade;
+        private TextBox txtVoto;
         private Label lblPartidoCandidato;
         private Label lblNomeCandidato;
         private Label label3;
