@@ -8,9 +8,9 @@ using UrnaEletronica.Model;
 
 namespace UrnaEletronica.Data.DAO.Partido
 {
-    class PartidoDAO
+    static class  PartidoDAO
     {
-        public PartidoModel BuscarPartido (int idPartido)
+        public static PartidoModel BuscarPartido (int idPartido)
         {
             PartidoModel partido = new PartidoModel();
 
@@ -40,7 +40,7 @@ namespace UrnaEletronica.Data.DAO.Partido
             return partido;
         }
 
-        public List<PartidoModel> BuscarPartidoLista()
+        public static List<PartidoModel> BuscarPartidoLista()
         {
             List<PartidoModel> partidoList = new List<PartidoModel>();
 
@@ -71,16 +71,17 @@ namespace UrnaEletronica.Data.DAO.Partido
             return partidoList;
         }
 
-        public void CadastrarPartido(PartidoModel p)
+        public static void CadastrarPartido(PartidoModel p)
         {
             using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
             {
                 connection.Open();
 
-                string query = "INSERT INTO partido (nome, sigla, id_coligacao) VALUES (@nome, @sigla, @id_coligacao)";
+                string query = "INSERT INTO partido (id_partido,nome, sigla, id_coligacao) VALUES (@id_partido,@nome, @sigla, @id_coligacao)";
 
                 using (MySqlCommand command = new MySqlCommand(query, connection))
                 {
+                    command.Parameters.AddWithValue("@id_partido", p.id_Partido);
                     command.Parameters.AddWithValue("@nome", p.nome);
                     command.Parameters.AddWithValue("@sigla", p.sigla);
                     command.Parameters.AddWithValue("@id_coligacao", p.id_coligacao);
@@ -90,7 +91,7 @@ namespace UrnaEletronica.Data.DAO.Partido
             }
         }
 
-        public void AtualizarPartido(string nome, string sigla, int id_coligacao, int idPartido)
+        public static void AtualizarPartido(string nome, string sigla, int id_coligacao, int idPartido)
         {
             using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
             {
@@ -110,7 +111,7 @@ namespace UrnaEletronica.Data.DAO.Partido
             }
         }
 
-        public void DeletarPartido(int idPartido)
+        public static void DeletarPartido(int idPartido)
         {
             using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
             {

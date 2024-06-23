@@ -8,9 +8,9 @@ using UrnaEletronica.Model;
 
 namespace UrnaEletronica.Data.DAO.Coligacao
 {
-    internal class ColigacaoDAO
+    static class ColigacaoDAO
     {
-        public ColigacaoModel BuscarColigacao(int idColigacao)
+        public static ColigacaoModel BuscarColigacao(int idColigacao)
         {
             ColigacaoModel coligacao = new ColigacaoModel();
 
@@ -38,7 +38,7 @@ namespace UrnaEletronica.Data.DAO.Coligacao
             return coligacao;
         }
 
-        public List<ColigacaoModel> BuscarColigacao()
+        public static List<ColigacaoModel> BuscarColigacao()
         {
             List<ColigacaoModel> coligacoes = new List<ColigacaoModel>();
 
@@ -67,7 +67,7 @@ namespace UrnaEletronica.Data.DAO.Coligacao
             return coligacoes;
         }
 
-        public void CadastrarColigacao(string nomeColigacao)
+        public static void CadastrarColigacao(string nomeColigacao)
         {
             using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
             {
@@ -84,7 +84,7 @@ namespace UrnaEletronica.Data.DAO.Coligacao
             }
         }
 
-        public void AtualizarColigacao(int idColigacao, string nomeColigacao)
+        public static void AtualizarColigacao(int idColigacao, string nomeColigacao)
         {
             using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
             {
@@ -102,7 +102,7 @@ namespace UrnaEletronica.Data.DAO.Coligacao
             }
         }
 
-        public void DeletarColigacao(int idColigacao)
+        public static void DeletarColigacao(int idColigacao)
         {
             using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
             {
