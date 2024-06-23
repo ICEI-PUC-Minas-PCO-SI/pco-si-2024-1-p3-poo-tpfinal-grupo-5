@@ -7,20 +7,16 @@
       "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\votacao\\urna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|e:\\trabalhos puc\\programacao orientada a objeto\\trabalho final trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\urnaeletronica\\urnaeletronica\\view\\votacao\\urna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\votacao\\urna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|e:\\trabalhos puc\\programacao orientada a objeto\\trabalho final trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\urnaeletronica\\urnaeletronica\\view\\iniciar eleicao\\inicioeleicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\iniciar eleicao\\inicioeleicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|e:\\trabalhos puc\\programacao orientada a objeto\\trabalho final trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\urnaeletronica\\urnaeletronica\\data\\dao\\eleicao\\eleicaodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\data\\dao\\eleicao\\eleicaodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|e:\\trabalhos puc\\programacao orientada a objeto\\trabalho final trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\urnaeletronica\\urnaeletronica\\model\\eleicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\model\\eleicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|e:\\trabalhos puc\\programacao orientada a objeto\\trabalho final trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\urnaeletronica\\urnaeletronica\\data\\dao\\candidato\\candidatodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\data\\dao\\candidato\\candidatodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|e:\\trabalhos puc\\programacao orientada a objeto\\trabalho final trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\urnaeletronica\\urnaeletronica\\view\\votacao\\urna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\votacao\\urna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +26,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EleicaoDAO.cs",
+              "DocumentMoniker": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\Data\\DAO\\Eleicao\\EleicaoDAO.cs",
+              "RelativeDocumentMoniker": "UrnaEletronica\\Data\\DAO\\Eleicao\\EleicaoDAO.cs",
+              "ToolTip": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\Data\\DAO\\Eleicao\\EleicaoDAO.cs",
+              "RelativeToolTip": "UrnaEletronica\\Data\\DAO\\Eleicao\\EleicaoDAO.cs",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAwwK0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T19:36:15.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CandidatoDAO.cs",
+              "DocumentMoniker": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\Data\\DAO\\Candidato\\CandidatoDAO.cs",
+              "RelativeDocumentMoniker": "UrnaEletronica\\Data\\DAO\\Candidato\\CandidatoDAO.cs",
+              "ToolTip": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\Data\\DAO\\Candidato\\CandidatoDAO.cs",
+              "RelativeToolTip": "UrnaEletronica\\Data\\DAO\\Candidato\\CandidatoDAO.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAwwJgAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T19:32:42.654Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -49,54 +67,20 @@
               "EditorCaption": " [Projeto]"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Urna.cs",
               "DocumentMoniker": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\Votacao\\Urna.cs",
               "RelativeDocumentMoniker": "UrnaEletronica\\View\\Votacao\\Urna.cs",
               "ToolTip": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\Votacao\\Urna.cs",
               "RelativeToolTip": "UrnaEletronica\\View\\Votacao\\Urna.cs",
-              "ViewState": "AQIAAKYAAAAAAAAAAAAAALYAAAAdAAAA",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAAAJ4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-23T15:25:21.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InicioEleicao.cs [Projeto]",
-              "DocumentMoniker": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\Iniciar Eleicao\\InicioEleicao.cs",
-              "RelativeDocumentMoniker": "UrnaEletronica\\View\\Iniciar Eleicao\\InicioEleicao.cs",
-              "ToolTip": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\Iniciar Eleicao\\InicioEleicao.cs [Projeto]",
-              "RelativeToolTip": "UrnaEletronica\\View\\Iniciar Eleicao\\InicioEleicao.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T14:08:40.495Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Eleicao.cs",
-              "DocumentMoniker": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\Model\\Eleicao.cs",
-              "RelativeDocumentMoniker": "UrnaEletronica\\Model\\Eleicao.cs",
-              "ToolTip": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\Model\\Eleicao.cs",
-              "RelativeToolTip": "UrnaEletronica\\Model\\Eleicao.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T14:53:43.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EleicaoDAO.cs",
-              "DocumentMoniker": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\Data\\DAO\\Eleicao\\EleicaoDAO.cs",
-              "RelativeDocumentMoniker": "UrnaEletronica\\Data\\DAO\\Eleicao\\EleicaoDAO.cs",
-              "ToolTip": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\Data\\DAO\\Eleicao\\EleicaoDAO.cs",
-              "RelativeToolTip": "UrnaEletronica\\Data\\DAO\\Eleicao\\EleicaoDAO.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T14:51:56.97Z",
               "EditorCaption": ""
             }
           ]

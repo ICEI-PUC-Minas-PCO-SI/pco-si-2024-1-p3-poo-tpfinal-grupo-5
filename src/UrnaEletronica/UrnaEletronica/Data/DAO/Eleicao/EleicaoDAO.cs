@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UrnaEletronica.Data.DTO.Eleicao;
 using UrnaEletronica.Model;
 
 namespace UrnaEletronica.Data.DAO.Eleicao
@@ -56,7 +57,8 @@ namespace UrnaEletronica.Data.DAO.Eleicao
                     {
                         while (reader.Read())
                         {
-                            EleicaoModel eleicao = new EleicaoModel() {
+                            EleicaoModel eleicao = new EleicaoModel()
+                            {
                                 id_eleicao = reader.GetInt32("id_eleicao"),
                                 ano = reader.GetInt32("ano"),
                                 tipo = reader.GetString("tipo"),
@@ -128,5 +130,55 @@ namespace UrnaEletronica.Data.DAO.Eleicao
             }
         }
 
+        public static EleicaoDTO comecaEleicao(int id)
+        {
+            EleicaoDTO eleicao = new EleicaoDTO();
+
+            using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
+            {
+                connection.Open();
+
+                string query = @"
+                SELECT 
+                    c.nome AS coligacao_nome,
+                    p.nome AS partido_nome,
+                    p.sigla AS partido_sigla,
+                    cand.nome AS candidato_nome,
+                    cand.numero AS candidato_numero,
+                    e.ano AS eleicao_ano,
+                    e.tipo AS eleicao_tipo
+                FROM 
+                    eleicao e
+                JOIN 
+                    eleicao_partido ep ON e.id_eleicao = ep.id_eleicao
+                JOIN 
+                    partido p ON ep.id_partido = p.id_partido
+                JOIN 
+                    coligacao c ON p.id_coligacao = c.id_coligacao
+                JOIN 
+                    candidato cand ON p.id_partido = cand.id_partido
+                WHERE 
+                    e.id_eleicao = @id;
+                ";
+
+                using (MySqlCommand command = new MySqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@id", id);
+
+                    using (MySqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            eleicao.id_eleicao = reader.GetInt32("id_eleicao");
+                            eleicao.ano = reader.GetInt32("ano");
+                            eleicao.tipo = reader.GetString("tipo");
+                            eleicao.total_votos = reader.GetInt32("total_votos");
+                        }
+                    }
+                }
+            }
+
+            return eleicao;
+        }
     }
 }

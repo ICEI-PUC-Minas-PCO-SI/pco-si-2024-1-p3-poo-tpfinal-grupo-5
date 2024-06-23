@@ -154,13 +154,13 @@ namespace UrnaEletronica.View.Votacao
                 string Tipo = tipoCandidato.Text;
                 if(Tipo == "Prefeito")
                 {
-                    if(Voto.Length != 2)
+                    if(Voto.Length == 2)
                     {
-                        MessageBox.Show("Tá fazendo merda, presta atenção");
+
                     }
                     else
                     {
-
+                        MessageBox.Show("Tá fazendo merda, presta atenção");
                     }
                 }
             }

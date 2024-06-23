@@ -282,7 +282,7 @@
             // 
             btnBranco.Cursor = Cursors.Hand;
             btnBranco.Font = new Font("Segoe UI", 6.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnBranco.Location = new Point(466, 400);
+            btnBranco.Location = new Point(468, 402);
             btnBranco.Name = "btnBranco";
             btnBranco.Size = new Size(52, 28);
             btnBranco.TabIndex = 11;
