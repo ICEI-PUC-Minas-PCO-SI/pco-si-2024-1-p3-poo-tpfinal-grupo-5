@@ -47,11 +47,8 @@
             button1.Cursor = Cursors.Hand;
             button1.FlatStyle = FlatStyle.Popup;
             button1.Font = new Font("Microsoft Sans Serif", 9F);
-<<<<<<< HEAD
             button1.Location = new Point(190, 178);
-=======
             button1.Location = new Point(66, 178);
->>>>>>> origin/CrudRafael
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
             button1.RightToLeft = RightToLeft.No;
@@ -59,7 +56,6 @@
             button1.TabIndex = 0;
             button1.Text = "Pesquisar";
             button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -67,36 +63,22 @@
             button2.Cursor = Cursors.Hand;
             button2.FlatStyle = FlatStyle.Popup;
             button2.Font = new Font("Microsoft Sans Serif", 9F);
-<<<<<<< HEAD
             button2.Location = new Point(378, 178);
             button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
             button2.RightToLeft = RightToLeft.No;
             button2.Size = new Size(148, 27);
-=======
             button2.Location = new Point(508, 178);
             button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
             button2.RightToLeft = RightToLeft.No;
             button2.Size = new Size(158, 27);
->>>>>>> origin/CrudRafael
             button2.TabIndex = 1;
             button2.Text = "Editar";
             button2.UseVisualStyleBackColor = false;
             // 
             // dgvColigacao
             // 
-<<<<<<< HEAD
-            dataGridView1.BackgroundColor = Color.LightGray;
-            dataGridView1.BorderStyle = BorderStyle.Fixed3D;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(66, 232);
-            dataGridView1.Margin = new Padding(3, 2, 3, 2);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(600, 141);
-            dataGridView1.TabIndex = 2;
-=======
             dgvColigacao.BackgroundColor = Color.LightGray;
             dgvColigacao.BorderStyle = BorderStyle.Fixed3D;
             dgvColigacao.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -106,7 +88,7 @@
             dgvColigacao.RowHeadersWidth = 51;
             dgvColigacao.Size = new Size(600, 141);
             dgvColigacao.TabIndex = 2;
->>>>>>> origin/CrudRafael
+
             // 
             // label1
             // 
@@ -134,64 +116,14 @@
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
-            // txtNome
-            // 
-<<<<<<< HEAD
-            label2.AutoSize = true;
-            label2.Font = new Font("Microsoft Sans Serif", 9F);
-            label2.Location = new Point(279, 95);
-            label2.Name = "label2";
-            label2.Size = new Size(46, 15);
-            label2.TabIndex = 5;
-            label2.Text = "Partido";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Microsoft Sans Serif", 9F);
-            label3.Location = new Point(495, 95);
-            label3.Name = "label3";
-            label3.Size = new Size(52, 15);
-            label3.TabIndex = 6;
-            label3.Text = "Número";
-            // 
-            // textBox1
-            // 
-            textBox1.BorderStyle = BorderStyle.FixedSingle;
-            textBox1.Location = new Point(279, 112);
-            textBox1.Margin = new Padding(3, 2, 3, 2);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(171, 23);
-            textBox1.TabIndex = 7;
-            // 
-            // textBox2
-            // 
-            textBox2.BorderStyle = BorderStyle.FixedSingle;
-            textBox2.Location = new Point(495, 112);
-            textBox2.Margin = new Padding(3, 2, 3, 2);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(171, 23);
-            textBox2.TabIndex = 8;
-            // 
             // textBox3
             // 
-            textBox3.BorderStyle = BorderStyle.FixedSingle;
-            textBox3.Location = new Point(66, 112);
-            textBox3.Margin = new Padding(3, 2, 3, 2);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(171, 23);
-            textBox3.TabIndex = 9;
-=======
             txtNome.BorderStyle = BorderStyle.FixedSingle;
             txtNome.Location = new Point(66, 112);
             txtNome.Margin = new Padding(3, 2, 3, 2);
             txtNome.Name = "txtNome";
             txtNome.Size = new Size(171, 23);
             txtNome.TabIndex = 9;
->>>>>>> origin/CrudRafael
-            // 
-            // panel1
-            // 
             panel1.BackColor = Color.FromArgb(36, 111, 51);
             panel1.Controls.Add(label4);
             panel1.Location = new Point(2, 0);
@@ -218,11 +150,7 @@
             button4.FlatStyle = FlatStyle.Popup;
             button4.Font = new Font("Microsoft Sans Serif", 9F);
             button4.ForeColor = SystemColors.ActiveCaptionText;
-<<<<<<< HEAD
-            button4.Location = new Point(508, 393);
-=======
             button4.Location = new Point(508, 107);
->>>>>>> origin/CrudRafael
             button4.Margin = new Padding(3, 2, 3, 2);
             button4.Name = "button4";
             button4.RightToLeft = RightToLeft.No;

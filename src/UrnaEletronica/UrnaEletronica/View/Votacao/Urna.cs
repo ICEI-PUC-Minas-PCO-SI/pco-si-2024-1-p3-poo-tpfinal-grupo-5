@@ -129,7 +129,7 @@ namespace UrnaEletronica.View.Votacao
         private void PreencheLblDadosCandidato()
         {
             CandidatoModel c = CandidatoDAO.BuscarCandidatoNumero(Convert.ToInt32(txtVoto.Text));
-            PartidoModel p = PartidoDAO.BuscarPartido(c.id_partido);
+            PartidoModel p = PartidoDAO.BuscarPartido(c.IdPartido);
             lblNomeCandidato.Text = c.apelido;
             lblPartidoCandidato.Text = p.sigla;
         }
@@ -205,60 +205,60 @@ namespace UrnaEletronica.View.Votacao
                 {
                     CandidatoModel c = CandidatoDAO.BuscarCandidatoNumero(Convert.ToInt32(txtVoto.Text));
                     lblNomeCandidato.Text = c.nome;
-                    PartidoModel p = PartidoDAO.BuscarPartido(c.id_partido);
+                    PartidoModel p = PartidoDAO.BuscarPartido(c.IdPartido);
                     lblPartidoCandidato.Text = p.sigla;
 
-                    EleicaoDAO.ContaVotoCandidato(c.numeroCandidato, eleicao.id_eleicao);
+                    EleicaoDAO.ContaVotoCandidato(c.IdCandidato, eleicao.id_eleicao);
                     tipoCandidato.Text = "Prefeito";
                 }
                 else if (Tipo == "Prefeito" && Voto.Length == 2)
                 {
                     CandidatoModel c = CandidatoDAO.BuscarCandidatoNumero(Convert.ToInt32(txtVoto.Text));
                     lblNomeCandidato.Text = c.nome;
-                    PartidoModel p = PartidoDAO.BuscarPartido(c.id_partido);
+                    PartidoModel p = PartidoDAO.BuscarPartido(c.IdPartido);
                     lblPartidoCandidato.Text = p.sigla;
 
-                    EleicaoDAO.ContaVotoCandidato(c.numeroCandidato, eleicao.id_eleicao);
+                    EleicaoDAO.ContaVotoCandidato(c.IdCandidato, eleicao.id_eleicao);
                     tipoCandidato.Text = "Vereador";
                 }
                 else if (Tipo == "Deputado Estadual" && Voto.Length == 5)
                 {
                     CandidatoModel c = CandidatoDAO.BuscarCandidatoNumero(Convert.ToInt32(txtVoto.Text));
                     lblNomeCandidato.Text = c.nome;
-                    PartidoModel p = PartidoDAO.BuscarPartido(c.id_partido);
+                    PartidoModel p = PartidoDAO.BuscarPartido(c.IdPartido);
                     lblPartidoCandidato.Text = p.sigla;
 
-                    EleicaoDAO.ContaVotoCandidato(c.numeroCandidato, eleicao.id_eleicao);
+                    EleicaoDAO.ContaVotoCandidato(c.IdCandidato, eleicao.id_eleicao);
                     tipoCandidato.Text = "Deputado Federal";
                 }
                 else if (Tipo == "Deputado Federal" && Voto.Length == 4)
                 {
                     CandidatoModel c = CandidatoDAO.BuscarCandidatoNumero(Convert.ToInt32(txtVoto.Text));
                     lblNomeCandidato.Text = c.nome;
-                    PartidoModel p = PartidoDAO.BuscarPartido(c.id_partido);
+                    PartidoModel p = PartidoDAO.BuscarPartido(c.IdPartido);
                     lblPartidoCandidato.Text = p.sigla;
 
-                    EleicaoDAO.ContaVotoCandidato(c.numeroCandidato, eleicao.id_eleicao);
+                    EleicaoDAO.ContaVotoCandidato(c.IdCandidato, eleicao.id_eleicao);
                     tipoCandidato.Text = "Governador";
                 }
                 else if (Tipo == "Governador" && Voto.Length == 2)
                 {
                     CandidatoModel c = CandidatoDAO.BuscarCandidatoNumero(Convert.ToInt32(txtVoto.Text));
                     lblNomeCandidato.Text = c.nome;
-                    PartidoModel p = PartidoDAO.BuscarPartido(c.id_partido);
+                    PartidoModel p = PartidoDAO.BuscarPartido(c.IdPartido);
                     lblPartidoCandidato.Text = p.sigla;
 
-                    EleicaoDAO.ContaVotoCandidato(c.numeroCandidato, eleicao.id_eleicao);
+                    EleicaoDAO.ContaVotoCandidato(c.IdCandidato, eleicao.id_eleicao);
                     tipoCandidato.Text = "Presidente";
                 } 
                 else if (Tipo == "Presidente" && Voto.Length == 2)
                 {
                     CandidatoModel c = CandidatoDAO.BuscarCandidatoNumero(Convert.ToInt32(txtVoto.Text));
                     lblNomeCandidato.Text = c.nome;
-                    PartidoModel p = PartidoDAO.BuscarPartido(c.id_partido);
+                    PartidoModel p = PartidoDAO.BuscarPartido(c.IdPartido);
                     lblPartidoCandidato.Text = p.sigla;
 
-                    EleicaoDAO.ContaVotoCandidato(c.numeroCandidato, eleicao.id_eleicao);
+                    EleicaoDAO.ContaVotoCandidato(c.IdCandidato, eleicao.id_eleicao);
                     tipoCandidato.Text = "Deputado Estadual";
                 }
             }

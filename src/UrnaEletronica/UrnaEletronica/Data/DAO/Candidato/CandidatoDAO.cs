@@ -188,8 +188,8 @@ namespace UrnaEletronica.Data.DAO.Candidato
                             candidato.IdCandidato = reader.GetInt32("id_candidato");
                             candidato.nome = reader.GetString("nome");
                             candidato.apelido = reader.GetString("apelido");
-                            candidato.numeroCandidato = reader.GetInt32("numero");
-                            candidato.id_partido = reader.GetInt32("id_partido");
+                            candidato.numero = reader.GetInt32("numero");
+                            candidato.IdPartido = reader.GetInt32("id_partido");
                         }
                     }
                 }

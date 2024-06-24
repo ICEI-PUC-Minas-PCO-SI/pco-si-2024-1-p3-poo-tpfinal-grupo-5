@@ -103,7 +103,7 @@
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
             // 
-<<<<<<< HEAD
+
             // iniciaEleicao
             // 
             iniciaEleicao.FlatStyle = FlatStyle.Popup;
@@ -120,29 +120,26 @@
             iniciaEleicao.Click += iniciaEleicao_Click;
             // 
             // MenuInicial
-=======
-            // MenuPrincipalForm
->>>>>>> origin/CrudRafael
+
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonFace;
             ClientSize = new Size(640, 387);
-<<<<<<< HEAD
+
             Controls.Add(iniciaEleicao);
-=======
->>>>>>> origin/CrudRafael
+
             Controls.Add(cadastrarCandidato);
             Controls.Add(cadastrarPartido);
             Controls.Add(cadastrarColigacao);
             Controls.Add(cadastrarEleicao);
             Controls.Add(pictureBox1);
             Margin = new Padding(3, 2, 3, 2);
-<<<<<<< HEAD
+
             Name = "MenuInicial";
-=======
+
             Name = "MenuPrincipalForm";
->>>>>>> origin/CrudRafael
+
             Text = "MenuInicial";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

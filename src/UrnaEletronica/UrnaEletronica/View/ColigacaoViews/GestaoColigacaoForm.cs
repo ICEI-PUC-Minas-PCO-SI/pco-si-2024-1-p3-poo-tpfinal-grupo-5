@@ -44,9 +44,5 @@ namespace UrnaEletronica.View.Coligacao
             dgvColigacao.DataSource = CarregaDados();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
