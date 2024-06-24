@@ -54,7 +54,7 @@
             btn_terminarVotacao = new Button();
             lblAno = new Label();
             Tipo = new Label();
-            test = new Label();
+            LblnumEleitor = new Label();
             panelPrincipal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)picFotoCandidato).BeginInit();
             SuspendLayout();
@@ -351,14 +351,14 @@
             Tipo.TabIndex = 16;
             Tipo.Text = "Iniciar votação";
             // 
-            // test
+            // numEleitor
             // 
-            test.AutoSize = true;
-            test.Location = new Point(609, 75);
-            test.Name = "test";
-            test.Size = new Size(38, 15);
-            test.TabIndex = 17;
-            test.Text = "label4";
+            LblnumEleitor.AutoSize = true;
+            LblnumEleitor.Location = new Point(35, 51);
+            LblnumEleitor.Name = "numEleitor";
+            LblnumEleitor.Size = new Size(88, 15);
+            LblnumEleitor.TabIndex = 17;
+            LblnumEleitor.Text = "Eleitor número:";
             // 
             // Urna
             // 
@@ -366,7 +366,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(696, 450);
-            Controls.Add(test);
+            Controls.Add(LblnumEleitor);
             Controls.Add(Tipo);
             Controls.Add(lblAno);
             Controls.Add(btn_terminarVotacao);
@@ -420,6 +420,6 @@
         private Button btn_terminarVotacao;
         private Label lblAno;
         private Label Tipo;
-        private Label test;
+        private Label LblnumEleitor;
     }
 }

@@ -15,5 +15,6 @@ namespace UrnaEletronica.Model
         public string nome { get; set; }
         public int id_partido { get; set; }
         public string apelido { get; set; }
+        public int numeroCandidato { get; set; }
     }
 }

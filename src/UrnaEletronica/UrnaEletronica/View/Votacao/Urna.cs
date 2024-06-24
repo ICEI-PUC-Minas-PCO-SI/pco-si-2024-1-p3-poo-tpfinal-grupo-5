@@ -22,6 +22,7 @@ namespace UrnaEletronica.View.Votacao
         private string voto = "";
         private bool mantemEleicao = true;
         private EleicaoModel eleicao;
+        public int quantVotos = 0;
 
         public Urna(EleicaoModel ele)
         {
@@ -36,12 +37,12 @@ namespace UrnaEletronica.View.Votacao
 
         private void RodaEleicao()
         {
-            if(tipoCandidato.Text == "Executivo")
+            if(Tipo.Text == "Municipal")
             {
                 tipoCandidato.Text = "Vereador";
             } else
             {
-                tipoCandidato.Text = "Deputado Federal";
+                tipoCandidato.Text = "Deputado Estadual";
             }
         }
 
@@ -84,11 +85,53 @@ namespace UrnaEletronica.View.Votacao
 
         private void ContaVoto(string v)
         {
-            if(Tipo.Text == "Legislativo")
+            string tipo = tipoCandidato.Text;
+            int quantDigitos = txtVoto.Text.Length + 1;
+
+            if (tipo == "Presidente" && quantDigitos <= 2)
             {
-                
+                txtVoto.Text += v;
+                PreencheLblDadosCandidato();
             }
-            txtVoto.Text += v;
+            else if (tipo == "Governador" && quantDigitos <= 2)
+            {
+                txtVoto.Text += v;
+                PreencheLblDadosCandidato();
+            } 
+            else if (tipo == "Deputado Federal" && quantDigitos <= 4)
+            {
+                txtVoto.Text += v;
+                PreencheLblDadosCandidato();
+            } 
+            else if (tipo == "Deputado Estadual" && quantDigitos <= 5)
+            {
+                txtVoto.Text += v;
+                PreencheLblDadosCandidato();
+            } 
+            else if (tipo == "Prefeito" && quantDigitos <= 2)
+            {
+                txtVoto.Text += v;
+                PreencheLblDadosCandidato();
+            } 
+            else if (tipo == "Vereador" && quantDigitos <= 5)
+            {
+                txtVoto.Text += v;
+                PreencheLblDadosCandidato();
+            }
+            if (txtVoto.Text.Length == 6)
+            {
+                MessageBox.Show("Número inválido");
+            }
+
+            
+        }
+
+        private void PreencheLblDadosCandidato()
+        {
+            CandidatoModel c = CandidatoDAO.BuscarCandidatoNumero(Convert.ToInt32(txtVoto.Text));
+            PartidoModel p = PartidoDAO.BuscarPartido(c.id_partido);
+            lblNomeCandidato.Text = c.apelido;
+            lblPartidoCandidato.Text = p.sigla;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -150,7 +193,6 @@ namespace UrnaEletronica.View.Votacao
 
         private void btnConfirma_Click(object sender, EventArgs e)
         {
-            //test.Text = voto;
             string Voto = txtVoto.Text;
             if (string.IsNullOrEmpty(Voto))
             {
@@ -159,21 +201,65 @@ namespace UrnaEletronica.View.Votacao
             else
             {
                 string Tipo = tipoCandidato.Text;
-                if(Tipo == "Prefeito")
+                if(Tipo == "Vereador" && Voto.Length == 5)
                 {
-                    if(Voto.Length == 2)
-                    {
-                        CandidatoModel c = CandidatoDAO.BuscarCandidatoNumero(Convert.ToInt32(txtVoto.Text));
-                        lblNomeCandidato.Text = c.nome;
-                        PartidoModel p = PartidoDAO.BuscarPartido(c.id_partido);
-                        lblPartidoCandidato.Text = p.sigla;
+                    CandidatoModel c = CandidatoDAO.BuscarCandidatoNumero(Convert.ToInt32(txtVoto.Text));
+                    lblNomeCandidato.Text = c.nome;
+                    PartidoModel p = PartidoDAO.BuscarPartido(c.id_partido);
+                    lblPartidoCandidato.Text = p.sigla;
 
-                        EleicaoDAO.ContaVotoCandidato(c.IdCandidato, eleicao.id_eleicao);
-                    }
-                    else
-                    {
-                        MessageBox.Show("Tá fazendo merda, presta atenção");
-                    }
+                    EleicaoDAO.ContaVotoCandidato(c.numeroCandidato, eleicao.id_eleicao);
+                    tipoCandidato.Text = "Prefeito";
+                }
+                else if (Tipo == "Prefeito" && Voto.Length == 2)
+                {
+                    CandidatoModel c = CandidatoDAO.BuscarCandidatoNumero(Convert.ToInt32(txtVoto.Text));
+                    lblNomeCandidato.Text = c.nome;
+                    PartidoModel p = PartidoDAO.BuscarPartido(c.id_partido);
+                    lblPartidoCandidato.Text = p.sigla;
+
+                    EleicaoDAO.ContaVotoCandidato(c.numeroCandidato, eleicao.id_eleicao);
+                    tipoCandidato.Text = "Vereador";
+                }
+                else if (Tipo == "Deputado Estadual" && Voto.Length == 5)
+                {
+                    CandidatoModel c = CandidatoDAO.BuscarCandidatoNumero(Convert.ToInt32(txtVoto.Text));
+                    lblNomeCandidato.Text = c.nome;
+                    PartidoModel p = PartidoDAO.BuscarPartido(c.id_partido);
+                    lblPartidoCandidato.Text = p.sigla;
+
+                    EleicaoDAO.ContaVotoCandidato(c.numeroCandidato, eleicao.id_eleicao);
+                    tipoCandidato.Text = "Deputado Federal";
+                }
+                else if (Tipo == "Deputado Federal" && Voto.Length == 4)
+                {
+                    CandidatoModel c = CandidatoDAO.BuscarCandidatoNumero(Convert.ToInt32(txtVoto.Text));
+                    lblNomeCandidato.Text = c.nome;
+                    PartidoModel p = PartidoDAO.BuscarPartido(c.id_partido);
+                    lblPartidoCandidato.Text = p.sigla;
+
+                    EleicaoDAO.ContaVotoCandidato(c.numeroCandidato, eleicao.id_eleicao);
+                    tipoCandidato.Text = "Governador";
+                }
+                else if (Tipo == "Governador" && Voto.Length == 2)
+                {
+                    CandidatoModel c = CandidatoDAO.BuscarCandidatoNumero(Convert.ToInt32(txtVoto.Text));
+                    lblNomeCandidato.Text = c.nome;
+                    PartidoModel p = PartidoDAO.BuscarPartido(c.id_partido);
+                    lblPartidoCandidato.Text = p.sigla;
+
+                    EleicaoDAO.ContaVotoCandidato(c.numeroCandidato, eleicao.id_eleicao);
+                    tipoCandidato.Text = "Presidente";
+                } 
+                else if (Tipo == "Presidente" && Voto.Length == 2)
+                {
+                    CandidatoModel c = CandidatoDAO.BuscarCandidatoNumero(Convert.ToInt32(txtVoto.Text));
+                    lblNomeCandidato.Text = c.nome;
+                    PartidoModel p = PartidoDAO.BuscarPartido(c.id_partido);
+                    lblPartidoCandidato.Text = p.sigla;
+
+                    EleicaoDAO.ContaVotoCandidato(c.numeroCandidato, eleicao.id_eleicao);
+                    tipoCandidato.Text = "Deputado Estadual";
                 }
             }
 
@@ -198,17 +284,10 @@ namespace UrnaEletronica.View.Votacao
 
         private void txtVoto_TextChanged(object sender, EventArgs e)
         {
-            if(tipoCandidato.Text == "Presidente" && txtVoto.Text.Length == 2)
+            if(txtVoto.Text.Length == 6)
             {
-                CandidatoModel c = CandidatoDAO.BuscarCandidatoNumero(Convert.ToInt32(txtVoto.Text));
-                PartidoModel p = PartidoDAO.BuscarPartido(c.id_partido);
-                lblNomeCandidato.Text = c.apelido;
-                lblPartidoCandidato.Text = p.sigla;
-
-
+                MessageBox.Show("Número inválido");
             }
         }
-
-
     }
 }

@@ -169,14 +169,17 @@ namespace UrnaEletronica.Data.DAO.Candidato
 
                 using (MySqlCommand command = new MySqlCommand(query, connection))
                 {
-                    command.Parameters.AddWithValue("@idCandidato", nCandidato);
+                    command.Parameters.AddWithValue("@nCandidato", nCandidato);
 
                     using (MySqlDataReader reader = command.ExecuteReader())
                     {
                         if (reader.Read())
                         {
-                            candidato.IdCandidato = reader.GetInt32("idCandidato");
+                            candidato.IdCandidato = reader.GetInt32("id_candidato");
                             candidato.nome = reader.GetString("nome");
+                            candidato.apelido = reader.GetString("apelido");
+                            candidato.numeroCandidato = reader.GetInt32("numero");
+                            candidato.id_partido = reader.GetInt32("id_partido");
                         }
                     }
                 }
