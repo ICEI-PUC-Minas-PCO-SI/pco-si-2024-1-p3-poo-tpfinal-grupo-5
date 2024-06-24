@@ -45,13 +45,24 @@ namespace UrnaEletronica.View.Eleicao
         {
             try
             {
+<<<<<<< HEAD
                 dgvEleicao.DataSource = EleicaoDAO.BuscarEleicao(Convert.ToInt32(txtAno.Text));
             } 
             catch(Exception ex)
+=======
+                dgvEleicao.DataSource = EleicaoDAO.BuscarEleicao(Convert.ToInt32(txtAno.Text), txtTipo.Text);
+            }
+            catch (Exception ex)
+>>>>>>> origin/CrudHigor
             {
                 MessageBox.Show(ex.Message);
             }
-            
+
+        }
+
+        private void GestaoEleicaoForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

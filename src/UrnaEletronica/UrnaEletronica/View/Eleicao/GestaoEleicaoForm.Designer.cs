@@ -206,6 +206,7 @@
             Margin = new Padding(3, 2, 3, 2);
             Name = "GestaoEleicaoForm";
             Text = "GestaoEleicaoForm";
+            Load += GestaoEleicaoForm_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dgvEleicao).EndInit();

@@ -8,7 +8,11 @@ using UrnaEletronica.Model;
 
 namespace UrnaEletronica.Data.DAO.Partido
 {
+<<<<<<< HEAD
     static class PartidoDAO
+=======
+    static class  PartidoDAO
+>>>>>>> origin/CrudHigor
     {
         public static PartidoModel BuscarPartido (int idPartido)
         {
@@ -77,10 +81,11 @@ namespace UrnaEletronica.Data.DAO.Partido
             {
                 connection.Open();
 
-                string query = "INSERT INTO partido (nome, sigla, id_coligacao) VALUES (@nome, @sigla, @id_coligacao)";
+                string query = "INSERT INTO partido (id_partido,nome, sigla, id_coligacao) VALUES (@id_partido,@nome, @sigla, @id_coligacao)";
 
                 using (MySqlCommand command = new MySqlCommand(query, connection))
                 {
+                    command.Parameters.AddWithValue("@id_partido", p.id_Partido);
                     command.Parameters.AddWithValue("@nome", p.nome);
                     command.Parameters.AddWithValue("@sigla", p.sigla);
                     command.Parameters.AddWithValue("@id_coligacao", p.id_coligacao);
