@@ -1,3 +1,5 @@
+using UrnaEletronica.View.Candidato;
+using UrnaEletronica.View.Coligacao;
 using UrnaEletronica.View.Eleicao;
 using UrnaEletronica.View.Menu_Inicial;
 using UrnaEletronica.View.Votacao;

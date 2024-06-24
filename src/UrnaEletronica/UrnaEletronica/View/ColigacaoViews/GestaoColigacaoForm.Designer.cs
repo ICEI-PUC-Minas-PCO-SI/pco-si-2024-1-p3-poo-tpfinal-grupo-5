@@ -30,18 +30,14 @@
         {
             button1 = new Button();
             button2 = new Button();
-            dataGridView1 = new DataGridView();
+            dgvColigacao = new DataGridView();
             label1 = new Label();
             button3 = new Button();
-            label2 = new Label();
-            label3 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
+            txtNome = new TextBox();
             panel1 = new Panel();
             label4 = new Label();
             button4 = new Button();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvColigacao).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -51,7 +47,11 @@
             button1.Cursor = Cursors.Hand;
             button1.FlatStyle = FlatStyle.Popup;
             button1.Font = new Font("Microsoft Sans Serif", 9F);
+<<<<<<< HEAD
             button1.Location = new Point(190, 178);
+=======
+            button1.Location = new Point(66, 178);
+>>>>>>> origin/CrudRafael
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
             button1.RightToLeft = RightToLeft.No;
@@ -67,17 +67,26 @@
             button2.Cursor = Cursors.Hand;
             button2.FlatStyle = FlatStyle.Popup;
             button2.Font = new Font("Microsoft Sans Serif", 9F);
+<<<<<<< HEAD
             button2.Location = new Point(378, 178);
             button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
             button2.RightToLeft = RightToLeft.No;
             button2.Size = new Size(148, 27);
+=======
+            button2.Location = new Point(508, 178);
+            button2.Margin = new Padding(3, 2, 3, 2);
+            button2.Name = "button2";
+            button2.RightToLeft = RightToLeft.No;
+            button2.Size = new Size(158, 27);
+>>>>>>> origin/CrudRafael
             button2.TabIndex = 1;
             button2.Text = "Editar";
             button2.UseVisualStyleBackColor = false;
             // 
-            // dataGridView1
+            // dgvColigacao
             // 
+<<<<<<< HEAD
             dataGridView1.BackgroundColor = Color.LightGray;
             dataGridView1.BorderStyle = BorderStyle.Fixed3D;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -87,6 +96,17 @@
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(600, 141);
             dataGridView1.TabIndex = 2;
+=======
+            dgvColigacao.BackgroundColor = Color.LightGray;
+            dgvColigacao.BorderStyle = BorderStyle.Fixed3D;
+            dgvColigacao.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvColigacao.Location = new Point(66, 232);
+            dgvColigacao.Margin = new Padding(3, 2, 3, 2);
+            dgvColigacao.Name = "dgvColigacao";
+            dgvColigacao.RowHeadersWidth = 51;
+            dgvColigacao.Size = new Size(600, 141);
+            dgvColigacao.TabIndex = 2;
+>>>>>>> origin/CrudRafael
             // 
             // label1
             // 
@@ -112,9 +132,11 @@
             button3.TabIndex = 4;
             button3.Text = "Excluir";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
-            // label2
+            // txtNome
             // 
+<<<<<<< HEAD
             label2.AutoSize = true;
             label2.Font = new Font("Microsoft Sans Serif", 9F);
             label2.Location = new Point(279, 95);
@@ -159,6 +181,14 @@
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(171, 23);
             textBox3.TabIndex = 9;
+=======
+            txtNome.BorderStyle = BorderStyle.FixedSingle;
+            txtNome.Location = new Point(66, 112);
+            txtNome.Margin = new Padding(3, 2, 3, 2);
+            txtNome.Name = "txtNome";
+            txtNome.Size = new Size(171, 23);
+            txtNome.TabIndex = 9;
+>>>>>>> origin/CrudRafael
             // 
             // panel1
             // 
@@ -188,14 +218,19 @@
             button4.FlatStyle = FlatStyle.Popup;
             button4.Font = new Font("Microsoft Sans Serif", 9F);
             button4.ForeColor = SystemColors.ActiveCaptionText;
+<<<<<<< HEAD
             button4.Location = new Point(508, 393);
+=======
+            button4.Location = new Point(508, 107);
+>>>>>>> origin/CrudRafael
             button4.Margin = new Padding(3, 2, 3, 2);
             button4.Name = "button4";
             button4.RightToLeft = RightToLeft.No;
             button4.Size = new Size(158, 27);
             button4.TabIndex = 11;
-            button4.Text = "Salvar";
+            button4.Text = "Enviar";
             button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // GestaoColigacaoForm
             // 
@@ -205,20 +240,16 @@
             ClientSize = new Size(715, 454);
             Controls.Add(button4);
             Controls.Add(panel1);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(label3);
-            Controls.Add(label2);
+            Controls.Add(txtNome);
             Controls.Add(button3);
             Controls.Add(label1);
-            Controls.Add(dataGridView1);
+            Controls.Add(dgvColigacao);
             Controls.Add(button2);
             Controls.Add(button1);
             Margin = new Padding(3, 2, 3, 2);
             Name = "GestaoColigacaoForm";
             Text = "GestaoColigacaoForm";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvColigacao).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
@@ -229,14 +260,10 @@
 
         private Button button1;
         private Button button2;
-        private DataGridView dataGridView1;
+        private DataGridView dgvColigacao;
         private Label label1;
         private Button button3;
-        private Label label2;
-        private Label label3;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
+        private TextBox txtNome;
         private Panel panel1;
         private Label label4;
         private Button button4;

@@ -1,6 +1,6 @@
 ﻿namespace UrnaEletronica.View.Menu_Inicial
 {
-    partial class MenuInicial
+    partial class MenuPrincipalForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuInicial));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuPrincipalForm));
             cadastrarEleicao = new Button();
             cadastrarColigacao = new Button();
             cadastrarPartido = new Button();
@@ -103,6 +103,7 @@
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
             // 
+<<<<<<< HEAD
             // iniciaEleicao
             // 
             iniciaEleicao.FlatStyle = FlatStyle.Popup;
@@ -119,19 +120,29 @@
             iniciaEleicao.Click += iniciaEleicao_Click;
             // 
             // MenuInicial
+=======
+            // MenuPrincipalForm
+>>>>>>> origin/CrudRafael
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonFace;
             ClientSize = new Size(640, 387);
+<<<<<<< HEAD
             Controls.Add(iniciaEleicao);
+=======
+>>>>>>> origin/CrudRafael
             Controls.Add(cadastrarCandidato);
             Controls.Add(cadastrarPartido);
             Controls.Add(cadastrarColigacao);
             Controls.Add(cadastrarEleicao);
             Controls.Add(pictureBox1);
             Margin = new Padding(3, 2, 3, 2);
+<<<<<<< HEAD
             Name = "MenuInicial";
+=======
+            Name = "MenuPrincipalForm";
+>>>>>>> origin/CrudRafael
             Text = "MenuInicial";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

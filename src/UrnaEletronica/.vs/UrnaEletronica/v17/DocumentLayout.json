@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\",
+  "WorkspaceRootPath": "C:\\Users\\faelr\\OneDrive\\Documentos\\TRABALHO-URNA-POO\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|e:\\trabalhos puc\\programacao orientada a objeto\\trabalho final trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\urnaeletronica\\urnaeletronica\\view\\votacao\\urna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\votacao\\urna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,6 +14,38 @@
     {
       "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|e:\\trabalhos puc\\programacao orientada a objeto\\trabalho final trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\urnaeletronica\\urnaeletronica\\data\\dao\\eleicao\\eleicaodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\data\\dao\\eleicao\\eleicaodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|c:\\users\\faelr\\onedrive\\documentos\\trabalho-urna-poo\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\urnaeletronica\\urnaeletronica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|c:\\users\\faelr\\onedrive\\documentos\\trabalho-urna-poo\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\urnaeletronica\\urnaeletronica\\view\\coligacaoviews\\gestaocoligacaoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\coligacaoviews\\gestaocoligacaoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|c:\\users\\faelr\\onedrive\\documentos\\trabalho-urna-poo\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\urnaeletronica\\urnaeletronica\\view\\coligacaoviews\\gestaocoligacaoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\coligacaoviews\\gestaocoligacaoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|c:\\users\\faelr\\onedrive\\documentos\\trabalho-urna-poo\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\urnaeletronica\\urnaeletronica\\view\\candidato\\gestaocandidatoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\candidato\\gestaocandidatoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|c:\\users\\faelr\\onedrive\\documentos\\trabalho-urna-poo\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\urnaeletronica\\urnaeletronica\\data\\dao\\candidato\\candidatodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\data\\dao\\candidato\\candidatodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|c:\\users\\faelr\\onedrive\\documentos\\trabalho-urna-poo\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\urnaeletronica\\urnaeletronica\\data\\dao\\coligacao\\coligacaodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\data\\dao\\coligacao\\coligacaodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|c:\\users\\faelr\\onedrive\\documentos\\trabalho-urna-poo\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\urnaeletronica\\urnaeletronica\\view\\candidato\\gestaocandidatoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\view\\candidato\\gestaocandidatoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|c:\\users\\faelr\\onedrive\\documentos\\trabalho-urna-poo\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\urnaeletronica\\urnaeletronica\\model\\candidato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8F8C4E-E05F-4531-80BA-9AE39553DDC5}|UrnaEletronica\\UrnaEletronica.csproj|solutionrelative:urnaeletronica\\model\\candidato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> origin/CrudRafael
     }
   ],
   "DocumentGroupContainers": [
@@ -22,14 +55,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 2,
+=======
+          "SelectedChildIndex": 7,
+>>>>>>> origin/CrudRafael
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GestaoColigacaoForm.cs",
+              "DocumentMoniker": "C:\\Users\\faelr\\OneDrive\\Documentos\\TRABALHO-URNA-POO\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\ColigacaoViews\\GestaoColigacaoForm.cs",
+              "RelativeDocumentMoniker": "UrnaEletronica\\View\\ColigacaoViews\\GestaoColigacaoForm.cs",
+              "ToolTip": "C:\\Users\\faelr\\OneDrive\\Documentos\\TRABALHO-URNA-POO\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\ColigacaoViews\\GestaoColigacaoForm.cs",
+              "RelativeToolTip": "UrnaEletronica\\View\\ColigacaoViews\\GestaoColigacaoForm.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAuwCsAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T12:00:09.049Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 1,
               "Title": "Urna.cs [Projeto]",
               "DocumentMoniker": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\Votacao\\Urna.cs",
@@ -38,10 +85,21 @@
               "RelativeToolTip": "UrnaEletronica\\View\\Votacao\\Urna.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-23T23:37:41.822Z",
+=======
+              "DocumentIndex": 2,
+              "Title": "GestaoColigacaoForm.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\faelr\\OneDrive\\Documentos\\TRABALHO-URNA-POO\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\ColigacaoViews\\GestaoColigacaoForm.cs",
+              "RelativeDocumentMoniker": "UrnaEletronica\\View\\ColigacaoViews\\GestaoColigacaoForm.cs",
+              "ToolTip": "C:\\Users\\faelr\\OneDrive\\Documentos\\TRABALHO-URNA-POO\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\ColigacaoViews\\GestaoColigacaoForm.cs [Projeto]",
+              "RelativeToolTip": "UrnaEletronica\\View\\ColigacaoViews\\GestaoColigacaoForm.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T12:00:04.703Z",
+>>>>>>> origin/CrudRafael
               "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
               "Title": "Urna.cs",
               "DocumentMoniker": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\Votacao\\Urna.cs",
@@ -51,10 +109,22 @@
               "ViewState": "AQIAAO0AAAAAAAAAAAAAAAUBAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-23T21:46:24.122Z",
+=======
+              "DocumentIndex": 5,
+              "Title": "ColigacaoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\faelr\\OneDrive\\Documentos\\TRABALHO-URNA-POO\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\Data\\DAO\\Coligacao\\ColigacaoDAO.cs",
+              "RelativeDocumentMoniker": "UrnaEletronica\\Data\\DAO\\Coligacao\\ColigacaoDAO.cs",
+              "ToolTip": "C:\\Users\\faelr\\OneDrive\\Documentos\\TRABALHO-URNA-POO\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\Data\\DAO\\Coligacao\\ColigacaoDAO.cs",
+              "RelativeToolTip": "UrnaEletronica\\Data\\DAO\\Coligacao\\ColigacaoDAO.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwHMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T11:59:41.185Z",
+>>>>>>> origin/CrudRafael
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "EleicaoDAO.cs",
               "DocumentMoniker": "E:\\Trabalhos Puc\\Programacao Orientada a Objeto\\Trabalho Final Trabalhar aqui\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\Data\\DAO\\Eleicao\\EleicaoDAO.cs",
@@ -64,6 +134,68 @@
               "ViewState": "AQIAAK8AAAAAAAAAAADwv74AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-23T21:59:03.632Z",
+=======
+              "DocumentIndex": 4,
+              "Title": "CandidatoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\faelr\\OneDrive\\Documentos\\TRABALHO-URNA-POO\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\Data\\DAO\\Candidato\\CandidatoDAO.cs",
+              "RelativeDocumentMoniker": "UrnaEletronica\\Data\\DAO\\Candidato\\CandidatoDAO.cs",
+              "ToolTip": "C:\\Users\\faelr\\OneDrive\\Documentos\\TRABALHO-URNA-POO\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\Data\\DAO\\Candidato\\CandidatoDAO.cs",
+              "RelativeToolTip": "UrnaEletronica\\Data\\DAO\\Candidato\\CandidatoDAO.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T02:42:59.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Candidato.cs",
+              "DocumentMoniker": "C:\\Users\\faelr\\OneDrive\\Documentos\\TRABALHO-URNA-POO\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\Model\\Candidato.cs",
+              "RelativeDocumentMoniker": "UrnaEletronica\\Model\\Candidato.cs",
+              "ToolTip": "C:\\Users\\faelr\\OneDrive\\Documentos\\TRABALHO-URNA-POO\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\Model\\Candidato.cs",
+              "RelativeToolTip": "UrnaEletronica\\Model\\Candidato.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T11:01:47.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GestaoCandidatoForm.cs",
+              "DocumentMoniker": "C:\\Users\\faelr\\OneDrive\\Documentos\\TRABALHO-URNA-POO\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\Candidato\\GestaoCandidatoForm.cs",
+              "RelativeDocumentMoniker": "UrnaEletronica\\View\\Candidato\\GestaoCandidatoForm.cs",
+              "ToolTip": "C:\\Users\\faelr\\OneDrive\\Documentos\\TRABALHO-URNA-POO\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\Candidato\\GestaoCandidatoForm.cs",
+              "RelativeToolTip": "UrnaEletronica\\View\\Candidato\\GestaoCandidatoForm.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAAwEwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T03:18:41.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GestaoCandidatoForm.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\faelr\\OneDrive\\Documentos\\TRABALHO-URNA-POO\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\Candidato\\GestaoCandidatoForm.cs",
+              "RelativeDocumentMoniker": "UrnaEletronica\\View\\Candidato\\GestaoCandidatoForm.cs",
+              "ToolTip": "C:\\Users\\faelr\\OneDrive\\Documentos\\TRABALHO-URNA-POO\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\View\\Candidato\\GestaoCandidatoForm.cs [Projeto]",
+              "RelativeToolTip": "UrnaEletronica\\View\\Candidato\\GestaoCandidatoForm.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T03:02:33.567Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\faelr\\OneDrive\\Documentos\\TRABALHO-URNA-POO\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\Program.cs",
+              "RelativeDocumentMoniker": "UrnaEletronica\\Program.cs",
+              "ToolTip": "C:\\Users\\faelr\\OneDrive\\Documentos\\TRABALHO-URNA-POO\\pco-si-2024-1-p3-poo-tpfinal-grupo-5\\src\\UrnaEletronica\\UrnaEletronica\\Program.cs",
+              "RelativeToolTip": "UrnaEletronica\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T00:01:15.01Z",
+>>>>>>> origin/CrudRafael
               "EditorCaption": ""
             }
           ]

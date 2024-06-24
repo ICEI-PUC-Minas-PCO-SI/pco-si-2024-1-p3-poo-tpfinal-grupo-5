@@ -13,9 +13,9 @@ using UrnaEletronica.View.Iniciar_Eleicao;
 
 namespace UrnaEletronica.View.Menu_Inicial
 {
-    public partial class MenuInicial : Form
+    public partial class MenuPrincipalForm : Form
     {
-        public MenuInicial()
+        public MenuPrincipalForm()
         {
             InitializeComponent();
         }
