@@ -38,11 +38,7 @@ namespace UrnaEletronica.Data.DAO.Coligacao
             return coligacao;
         }
 
-<<<<<<< HEAD
         public static List<ColigacaoModel> BuscarListaColigacao()
-=======
-        public static List<ColigacaoModel> BuscarColigacao()
->>>>>>> origin/CrudHigor
         {
             List<ColigacaoModel> coligacoes = new List<ColigacaoModel>();
 
@@ -106,11 +102,7 @@ namespace UrnaEletronica.Data.DAO.Coligacao
             }
         }
 
-<<<<<<< HEAD
         public static void DeletarColigacao(string nome)
-=======
-        public static void DeletarColigacao(int idColigacao)
->>>>>>> origin/CrudHigor
         {
             using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
             {

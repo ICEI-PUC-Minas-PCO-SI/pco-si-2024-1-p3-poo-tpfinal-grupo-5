@@ -8,11 +8,7 @@ using UrnaEletronica.Model;
 
 namespace UrnaEletronica.Data.DAO.Partido
 {
-<<<<<<< HEAD
     static class PartidoDAO
-=======
-    static class  PartidoDAO
->>>>>>> origin/CrudHigor
     {
         public static PartidoModel BuscarPartido (int idPartido)
         {

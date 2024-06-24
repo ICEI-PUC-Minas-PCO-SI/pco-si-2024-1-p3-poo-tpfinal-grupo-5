@@ -36,7 +36,7 @@ namespace UrnaEletronica.View.Coligacao
 
         private void CarregarComboBox()
         {
-            List<ColigacaoModel> lista = ColigacaoDAO.BuscarColigacao();
+            List<ColigacaoModel> lista = ColigacaoDAO.BuscarListaColigacao();
 
             foreach (var coligacao in lista)
             {
