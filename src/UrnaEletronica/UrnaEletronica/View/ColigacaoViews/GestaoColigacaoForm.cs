@@ -35,6 +35,7 @@ namespace UrnaEletronica.View.Coligacao
 
         private void button1_Click(object sender, EventArgs e)
         {
+            dgvColigacao.DataSource = ColigacaoDAO.BuscarColigacao(Convert.ToInt32(txtNome.Text));
         }
 
         private void button3_Click(object sender, EventArgs e)
