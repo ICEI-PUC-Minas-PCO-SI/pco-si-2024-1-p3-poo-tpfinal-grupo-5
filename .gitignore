@@ -47,3 +47,235 @@ wwwroot/lib/
 
 # Windows image file caches
 Th
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Rider project files
+.idea/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Mono auto generated files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+.vscode/**
+
+# Windows file system files
+*.DS_Store
+*.localized
+
+# Visual Studio specific files
+.vs/
+.vs/**
+
+# Uncomment if you have tasks.json
+# .vscode/tasks.json
+
+# Mac specific files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.gz
+*.orig
+*.backup
+
+# NuGet packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be generated as part of the build
+# !**/[Pp]ackages/repositories.config
+
+# Include target files
+*.props
+*.targets
+
+# IIS logs
+_IISExpress/
+
+# Local IIS Express folder
+.vs/
+.vscode/
+
+# Tooling
+.resharper/
+*.DotSettings.user
+
+# JetBrains Rider
+.idea/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopCache.xml
+
+# Files built by Visual Studio
+*.ncrunch*
+*.ndj
+*.tmd
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Entity Framework files
+*.edmx.diagram
+*.edmx
+
+# RIA/Silverlight projects
+Generated_Code/
+
+# Python cache files
+__pycache__/
+
+# Node.js files
+node_modules/
+
+# npm-debug log
+npm-debug.log*
+
+# Yarn integrity file
+.yarn-integrity
+
+# dotenv environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+*.log
+
+# Other files that are safe to ignore
+.temp
+*.tmp
+*.bak
+*.swp
+*~
+
+# Directories to ignore
+tmp/
+temp/
+
+# Ignore built resources
+*.resources
+*.resx
+
+# Ignore build directories
+build/
+
+# Ignore output of build
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+
+# Ignore specific extensions
+*.o
+*.obj
+*.dll
+*.exe
+*.so
+*.dylib
+*.lib
+
+# Ignore generated files
+*.g.dart
+*.g.g.dart
+*.part.dart
+*.gen.dart
+*.pb.dart
+*.pbenum.dart
+*.pbjson.dart
+*.pbserver.dart
+*.pbwkt.dart
+
+# Ignore miscellaneous file types
+*.log
+*.sql
+*.sqlite
+*.tar.gz
+*.pid
+*.seed
+*.dump
+*.lock
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.idb
+*.pdb
+
+# Python virtual environment
+venv/
+venv.bak/
+
+# Ignore specific file names
+settings.py
+config.py
+
+# Certificates
+*.crt
+*.key
+*.pem
+*.cer
+
+# Log files
+*.log
+
+# Custom Ignore
+custom/
+
+# Ignore editor specific files
+*.sublime-project
+*.sublime-workspace

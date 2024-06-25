@@ -9,13 +9,25 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controller\" />
-    <Folder Include="JsonFiles\" />
-    <Folder Include="Utils\" />
+    <Compile Remove="Controller\**" />
+    <Compile Remove="JsonFiles\**" />
+    <Compile Remove="Utils\**" />
+    <EmbeddedResource Remove="Controller\**" />
+    <EmbeddedResource Remove="JsonFiles\**" />
+    <EmbeddedResource Remove="Utils\**" />
+    <None Remove="Controller\**" />
+    <None Remove="JsonFiles\**" />
+    <None Remove="Utils\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.4.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\DAO\Eleicao\" />
+    <Folder Include="Data\DAO\Partido\" />
   </ItemGroup>
 
 </Project>

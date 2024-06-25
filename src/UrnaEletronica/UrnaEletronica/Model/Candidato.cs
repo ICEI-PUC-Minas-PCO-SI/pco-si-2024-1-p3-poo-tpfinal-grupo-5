@@ -9,74 +9,15 @@ using System.Xml.Serialization;
 
 namespace UrnaEletronica.Model
 {
-    public class Candidato
+    public class CandidatoModel
     {
-        public string Numero { get; set; }
-        public string Nome { get; set; }
-        public string Partido { get; set; }
+        public int IdCandidato { get; set; }
+        public string nome { get; set; }
+        public string apelido { get; set; }
+        public int numero { get; set; }
+        public int IdPartido {  get; set; }
+        public string partido {  get; set; }
+        public string cargo { get; set; }
 
-        public Candidato(string numero, string nome, string partido)
-        {
-            Numero = numero;
-            Nome = nome;
-            Partido = partido;
-        }
-
-        public Candidato()
-        {
-        }
-
-        private List<Candidato> candidatos;
-
-        public List<Candidato> GetCandidatos()
-        {
-            return this.candidatos;
-        }
-
-        public void Adicionar(Candidato candidato)
-        {
-            if (this.candidatos.Exists(c => c.Nome.Equals(candidato.Nome)))
-            {
-                throw new Exception("Já existe esse candidato");
-            }
-            else
-            {
-                this.candidatos.Add(candidato);
-            }
-        }
-
-        public void Remover(Candidato candidato)
-        {
-            candidatos.Remove(candidato);
-        }
-
-        public void Salvar()
-        {
-            File.Delete("C://temp//Candidatos.xml");
-            XmlSerializer ser = new XmlSerializer(typeof(List<Candidato>));
-            FileStream fs = new FileStream("C://temp//Candidatos.xml", FileMode.OpenOrCreate);
-            ser.Serialize(fs, this.candidatos);
-            fs.Close();
-        }
-
-        public void Carregar()
-        {
-            XmlSerializer ser = new XmlSerializer(typeof(List<Candidato>));
-            FileStream fs = new FileStream("C://temp//Candidatos.xml", FileMode.OpenOrCreate);
-
-            try
-            {
-                this.candidatos = ser.Deserialize(fs) as List<Candidato>;
-            }
-            catch (InvalidOperationException ex)
-            {
-                ser.Serialize(fs, this.candidatos);
-            }
-            finally
-            {
-                fs.Close();
-            }
-
-        }
     }
 }

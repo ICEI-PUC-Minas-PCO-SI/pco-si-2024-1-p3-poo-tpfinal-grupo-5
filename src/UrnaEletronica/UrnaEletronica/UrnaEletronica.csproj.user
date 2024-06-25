@@ -1,10 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="View\Coligacao\GestaoColigacaoForm.cs">
+    <Compile Update="View\Candidato\GestaoCandidatoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\ColigacaoViews\GestaoColigacaoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Eleicao\GestaoEleicaoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Eleicao\GestaoEleicaoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Eleicao\GestaoEleicaoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Iniciar Eleicao\InicioEleicao.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="View\Menu Inicial\MenuInicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Partido\GestaoPartidoForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="View\Relatorio\RelatorioVotacao.cs">
@@ -13,5 +31,10 @@
     <Compile Update="View\Votacao\Urna.cs">
       <SubType>Form</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

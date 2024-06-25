@@ -1,4 +1,9 @@
+
+using UrnaEletronica.View.Candidato;
+using UrnaEletronica.View.Coligacao;
+using UrnaEletronica.View.Eleicao;
 using UrnaEletronica.View.Menu_Inicial;
+using UrnaEletronica.View.Votacao;
 
 namespace UrnaEletronica
 {
@@ -13,7 +18,7 @@ namespace UrnaEletronica
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new MenuInicial());
+            Application.Run(new MenuPrincipalForm());
         }
     }
 }
