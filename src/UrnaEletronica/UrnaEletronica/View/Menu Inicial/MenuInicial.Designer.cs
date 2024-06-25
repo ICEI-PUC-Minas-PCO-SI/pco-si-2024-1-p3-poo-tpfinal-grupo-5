@@ -35,6 +35,7 @@
             cadastrarCandidato = new Button();
             pictureBox1 = new PictureBox();
             iniciaEleicao = new Button();
+            btnResultado = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -95,7 +96,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(-31, -20);
+            pictureBox1.Location = new Point(-45, -5);
             pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(718, 445);
@@ -103,7 +104,6 @@
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
             // 
-
             // iniciaEleicao
             // 
             iniciaEleicao.FlatStyle = FlatStyle.Popup;
@@ -119,27 +119,31 @@
             iniciaEleicao.UseVisualStyleBackColor = true;
             iniciaEleicao.Click += iniciaEleicao_Click;
             // 
-            // MenuInicial
-
+            // btnResultado
+            // 
+            btnResultado.Location = new Point(204, 319);
+            btnResultado.Name = "btnResultado";
+            btnResultado.Size = new Size(234, 34);
+            btnResultado.TabIndex = 8;
+            btnResultado.Text = "Resultado";
+            btnResultado.UseVisualStyleBackColor = true;
+            btnResultado.Click += btnResultado_Click;
+            // 
+            // MenuPrincipalForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonFace;
             ClientSize = new Size(640, 387);
-
+            Controls.Add(btnResultado);
             Controls.Add(iniciaEleicao);
-
             Controls.Add(cadastrarCandidato);
             Controls.Add(cadastrarPartido);
             Controls.Add(cadastrarColigacao);
             Controls.Add(cadastrarEleicao);
             Controls.Add(pictureBox1);
             Margin = new Padding(3, 2, 3, 2);
-
-            Name = "MenuInicial";
-
             Name = "MenuPrincipalForm";
-
             Text = "MenuInicial";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
@@ -152,5 +156,6 @@
         protected Button cadastrarEleicao;
         private PictureBox pictureBox1;
         protected Button iniciaEleicao;
+        private Button btnResultado;
     }
 }

@@ -54,10 +54,15 @@ namespace UrnaEletronica.View.Coligacao
         private void btEnviar_Click(object sender, EventArgs e)
         {
             int coligacaoId = ((KeyValuePair<int, string>)comboBoxColigacao.SelectedItem).Key;
-            PartidoModel partido = new PartidoModel(Convert.ToInt32(numeroPartido.Text),nomePartido.Text,siglaPartido.Text, coligacaoId);
-            
+            PartidoModel partido = new PartidoModel(Convert.ToInt32(numeroPartido.Text), nomePartido.Text, siglaPartido.Text, coligacaoId);
+
             PartidoDAO.CadastrarPartido(partido);
             dgListaPartidos.DataSource = CarregaGrid();
+        }
+
+        private void dgListaPartidos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

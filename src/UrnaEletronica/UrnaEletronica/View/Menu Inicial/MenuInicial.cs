@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using UrnaEletronica.View.Coligacao;
 using UrnaEletronica.View.Eleicao;
 using UrnaEletronica.View.Iniciar_Eleicao;
+using UrnaEletronica.View.Relatorio;
 
 namespace UrnaEletronica.View.Menu_Inicial
 {
@@ -53,6 +54,12 @@ namespace UrnaEletronica.View.Menu_Inicial
         {
             InicioEleicao i = new InicioEleicao();
             i.Show();
+        }
+
+        private void btnResultado_Click(object sender, EventArgs e)
+        {
+            RelatorioVotacao r = new RelatorioVotacao();
+            r.Show();
         }
     }
 }

@@ -17,6 +17,7 @@ namespace UrnaEletronica.Model
         public int numero { get; set; }
         public int IdPartido {  get; set; }
         public string partido {  get; set; }
+        public string cargo { get; set; }
 
     }
 }
