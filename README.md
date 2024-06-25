@@ -23,6 +23,10 @@ Este projeto aborda o desenvolvimento de um sistema de gerenciamento de votaçã
 * Fabio Leandro Rodrigues Cordeiro
 
 ## Versão C# 8.0
+![image](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-p3-poo-tpfinal-grupo-5/assets/126624614/14d516a4-8ad1-47e9-9c09-4149dbf1e024)
+
 
 ## Banco Utilizado: MySql
+![image](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-p3-poo-tpfinal-grupo-5/assets/126624614/2950b9d9-8094-4c5c-968f-76063f72a761)
+
 
