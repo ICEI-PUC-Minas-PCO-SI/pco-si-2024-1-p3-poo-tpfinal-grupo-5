@@ -7,7 +7,7 @@
 
 `Eixo: 5`
 
-Este projeto aborda o desenvolvimento de um sistema de gerenciamento de votação eletrônica, tendo como foco inicial eleições Legislativas brasileiras. Além das destas, o sistema também abrange eleições Executivas, integrando as devidas regras eleitorais de ambas. O lançamento inicial foca nas eleições municipais para prefeitos e vereadores, demonstrando a aplicação de princípios de programação orientada a objetos e padrões de design em seu desenvolvimento.
+Este projeto aborda o desenvolvimento de um sistema de gerenciamento de votação eletrônica, tendo como foco inicial eleições Legislativas brasileiras. Além das destas, o sistema também abrange eleições Executivas, integrando as devidas regras eleitorais de ambas. 
 
 ## Integrantes
 
@@ -21,4 +21,8 @@ Este projeto aborda o desenvolvimento de um sistema de gerenciamento de votaçã
 ## Orientador
 
 * Fabio Leandro Rodrigues Cordeiro
+
+## Versão C# 8.0
+
+## Banco Utilizado: MySql
 
