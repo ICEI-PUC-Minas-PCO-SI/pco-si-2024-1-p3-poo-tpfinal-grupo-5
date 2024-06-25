@@ -30,22 +30,12 @@
         {
             panel1 = new Panel();
             label4 = new Label();
-            textBox3 = new TextBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
-            label3 = new Label();
-            label2 = new Label();
-            label1 = new Label();
             label5 = new Label();
-            label6 = new Label();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            label7 = new Label();
-            label9 = new Label();
-            textBox7 = new TextBox();
-            label10 = new Label();
-            button2 = new Button();
+            btnCarregaDados = new Button();
+            dataGridResultado = new DataGridView();
+            comboCargo = new ComboBox();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridResultado).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -69,182 +59,65 @@
             label4.TabIndex = 0;
             label4.Text = "Relatório da Votação";
             // 
-            // textBox3
-            // 
-            textBox3.BorderStyle = BorderStyle.FixedSingle;
-            textBox3.Location = new Point(269, 142);
-            textBox3.Margin = new Padding(3, 2, 3, 2);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(171, 23);
-            textBox3.TabIndex = 29;
-            // 
-            // textBox2
-            // 
-            textBox2.BorderStyle = BorderStyle.FixedSingle;
-            textBox2.Location = new Point(45, 142);
-            textBox2.Margin = new Padding(3, 2, 3, 2);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(171, 23);
-            textBox2.TabIndex = 28;
-            // 
-            // textBox1
-            // 
-            textBox1.BorderStyle = BorderStyle.FixedSingle;
-            textBox1.Location = new Point(485, 142);
-            textBox1.Margin = new Padding(3, 2, 3, 2);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(171, 23);
-            textBox1.TabIndex = 27;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Microsoft Sans Serif", 9F);
-            label3.Location = new Point(45, 126);
-            label3.Name = "label3";
-            label3.Size = new Size(66, 15);
-            label3.TabIndex = 26;
-            label3.Text = "Presidente";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Microsoft Sans Serif", 9F);
-            label2.Location = new Point(485, 126);
-            label2.Name = "label2";
-            label2.Size = new Size(106, 15);
-            label2.TabIndex = 25;
-            label2.Text = "Deputado Federal";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Microsoft Sans Serif", 9F);
-            label1.Location = new Point(269, 125);
-            label1.Name = "label1";
-            label1.Size = new Size(71, 15);
-            label1.TabIndex = 24;
-            label1.Text = "Governador";
-            // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(39, 86);
+            label5.Location = new Point(45, 86);
             label5.Name = "label5";
-            label5.Size = new Size(116, 26);
+            label5.Size = new Size(183, 26);
             label5.TabIndex = 30;
-            label5.Text = "Executivo";
+            label5.Text = "Escolha o cargo";
             // 
-            // label6
+            // btnCarregaDados
             // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(39, 261);
-            label6.Name = "label6";
-            label6.Size = new Size(126, 26);
-            label6.TabIndex = 37;
-            label6.Text = "Legislativo";
+            btnCarregaDados.BackColor = SystemColors.ButtonHighlight;
+            btnCarregaDados.Cursor = Cursors.Hand;
+            btnCarregaDados.FlatStyle = FlatStyle.Popup;
+            btnCarregaDados.Font = new Font("Microsoft Sans Serif", 9F);
+            btnCarregaDados.Location = new Point(569, 111);
+            btnCarregaDados.Margin = new Padding(3, 2, 3, 2);
+            btnCarregaDados.Name = "btnCarregaDados";
+            btnCarregaDados.RightToLeft = RightToLeft.No;
+            btnCarregaDados.Size = new Size(118, 27);
+            btnCarregaDados.TabIndex = 40;
+            btnCarregaDados.Text = "Carrega Dados";
+            btnCarregaDados.UseVisualStyleBackColor = false;
+            btnCarregaDados.Click += button2_Click;
             // 
-            // textBox4
+            // dataGridResultado
             // 
-            textBox4.BorderStyle = BorderStyle.FixedSingle;
-            textBox4.Location = new Point(269, 323);
-            textBox4.Margin = new Padding(3, 2, 3, 2);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(171, 23);
-            textBox4.TabIndex = 36;
+            dataGridResultado.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridResultado.Location = new Point(45, 174);
+            dataGridResultado.Name = "dataGridResultado";
+            dataGridResultado.Size = new Size(642, 1004);
+            dataGridResultado.TabIndex = 41;
             // 
-            // textBox5
+            // comboCargo
             // 
-            textBox5.BorderStyle = BorderStyle.FixedSingle;
-            textBox5.Location = new Point(45, 323);
-            textBox5.Margin = new Padding(3, 2, 3, 2);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(171, 23);
-            textBox5.TabIndex = 35;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Microsoft Sans Serif", 9F);
-            label7.Location = new Point(45, 307);
-            label7.Name = "label7";
-            label7.Size = new Size(49, 15);
-            label7.TabIndex = 33;
-            label7.Text = "Prefeito";
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Font = new Font("Microsoft Sans Serif", 9F);
-            label9.Location = new Point(269, 306);
-            label9.Name = "label9";
-            label9.Size = new Size(57, 15);
-            label9.TabIndex = 31;
-            label9.Text = "Vereador";
-            // 
-            // textBox7
-            // 
-            textBox7.BorderStyle = BorderStyle.FixedSingle;
-            textBox7.Location = new Point(45, 206);
-            textBox7.Margin = new Padding(3, 2, 3, 2);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(171, 23);
-            textBox7.TabIndex = 39;
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.Font = new Font("Microsoft Sans Serif", 9F);
-            label10.Location = new Point(45, 190);
-            label10.Name = "label10";
-            label10.Size = new Size(112, 15);
-            label10.TabIndex = 38;
-            label10.Text = "Deputado Estadual";
-            label10.Click += label10_Click;
-            // 
-            // button2
-            // 
-            button2.BackColor = SystemColors.ButtonHighlight;
-            button2.Cursor = Cursors.Hand;
-            button2.FlatStyle = FlatStyle.Popup;
-            button2.Font = new Font("Microsoft Sans Serif", 9F);
-            button2.Location = new Point(554, 377);
-            button2.Margin = new Padding(3, 2, 3, 2);
-            button2.Name = "button2";
-            button2.RightToLeft = RightToLeft.No;
-            button2.Size = new Size(118, 27);
-            button2.TabIndex = 40;
-            button2.Text = "Voltar";
-            button2.UseVisualStyleBackColor = false;
+            comboCargo.FormattingEnabled = true;
+            comboCargo.Location = new Point(45, 115);
+            comboCargo.Name = "comboCargo";
+            comboCargo.Size = new Size(240, 23);
+            comboCargo.TabIndex = 42;
             // 
             // RelatorioVotacao
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(711, 424);
-            Controls.Add(button2);
-            Controls.Add(textBox7);
-            Controls.Add(label10);
-            Controls.Add(label6);
-            Controls.Add(textBox4);
-            Controls.Add(textBox5);
-            Controls.Add(label7);
-            Controls.Add(label9);
+            ClientSize = new Size(735, 1426);
+            Controls.Add(comboCargo);
+            Controls.Add(dataGridResultado);
+            Controls.Add(btnCarregaDados);
             Controls.Add(label5);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
             Controls.Add(panel1);
             Margin = new Padding(3, 2, 3, 2);
             Name = "RelatorioVotacao";
             Text = "RelatorioVotacao";
+            Load += RelatorioVotacao_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridResultado).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -252,20 +125,9 @@
         #endregion
         private Panel panel1;
         private Label label4;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private Label label3;
-        private Label label2;
-        private Label label1;
         private Label label5;
-        private Label label6;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private Label label7;
-        private Label label9;
-        private TextBox textBox7;
-        private Label label10;
-        private Button button2;
+        private Button btnCarregaDados;
+        private DataGridView dataGridResultado;
+        private ComboBox comboCargo;
     }
 }

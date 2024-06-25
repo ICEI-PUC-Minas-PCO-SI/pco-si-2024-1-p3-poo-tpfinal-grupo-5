@@ -149,6 +149,7 @@
             dgListaPartidos.RowHeadersWidth = 51;
             dgListaPartidos.Size = new Size(600, 141);
             dgListaPartidos.TabIndex = 26;
+            dgListaPartidos.CellContentClick += dgListaPartidos_CellContentClick;
             // 
             // button2
             // 
