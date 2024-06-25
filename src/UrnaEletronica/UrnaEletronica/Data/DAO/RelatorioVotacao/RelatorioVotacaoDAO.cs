@@ -48,5 +48,56 @@ namespace UrnaEletronica.Data.DAO.RelatorioVotacao
 
             return votosList;
         }
+        public static List<Vagas> MostrarVagas(string _cargo)
+        {
+            List<Vagas> VagaList = new List<Vagas>();
+
+            using (MySqlConnection connection = new MySqlConnection(Data.Configs.Consts.ConnectionString))
+            {
+                connection.Open();
+
+                string query = @"SELECT 
+                                c.id_coligacao,
+                                c.nome,
+                                SUM(e.quantidade_votos) AS TotalVotos,
+                                FLOOR(SUM(e.quantidade_votos) / 600) AS Vagas
+                                FROM 
+                                urna.eleicao_candidato e     
+                                join urna.candidato ca
+                                on ca.id_candidato = e.id_candidato
+                                join urna.partido p 
+                                on p.id_partido = ca.id_partido
+                                join urna.coligacao c
+                                on c.id_coligacao = p.id_coligacao
+                                where ca.cargo = 'Vereador'
+                                group by c.id_coligacao,
+                                c.nome
+                                ORDER BY 
+                                TotalVotos DESC;";
+
+                using (MySqlCommand command = new MySqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@_cargo", _cargo);
+
+                    using (MySqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            Vagas votos = new Vagas
+                            {
+                                id_coligacao = reader.GetInt32("id_coligacao"),
+                                nome = reader.GetString("nome"),
+                                vagas = reader.GetInt32("Vagas"),
+                                TotalVotos = reader.GetInt32("TotalVotos")
+                            };
+
+                            VagaList.Add(votos);
+                        }
+                    }
+                }
+            }
+
+            return VagaList;
+        }
     }
 }

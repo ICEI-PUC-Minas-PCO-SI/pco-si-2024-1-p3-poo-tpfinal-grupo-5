@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using UrnaEletronica.View.Candidato;
 using UrnaEletronica.View.Coligacao;
 using UrnaEletronica.View.Eleicao;
 using UrnaEletronica.View.Iniciar_Eleicao;
@@ -46,7 +47,7 @@ namespace UrnaEletronica.View.Menu_Inicial
 
         private void cadastrarCandidato_Click(object sender, EventArgs e)
         {
-            GestaoPartidoForm g = new GestaoPartidoForm();
+            GestaoCandidatoForm g = new GestaoCandidatoForm();
             g.Show();
         }
 

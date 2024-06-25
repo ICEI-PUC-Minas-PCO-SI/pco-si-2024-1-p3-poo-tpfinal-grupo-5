@@ -62,5 +62,15 @@ namespace UrnaEletronica.View.Relatorio
         {
 
         }
+
+        private void btnVagas_Click(object sender, EventArgs e)
+        {
+            string cargoSelecionado = comboCargo.SelectedItem?.ToString();
+            if (!string.IsNullOrEmpty(cargoSelecionado) && cargoSelecionado == "Vereador")
+            {
+                List<Vagas> listaVagas = RelatorioVotacaoDAO.MostrarVagas(cargoSelecionado);
+                dataGridViewCarregaVagas.DataSource = listaVagas;
+            }
+        }
     }
 }

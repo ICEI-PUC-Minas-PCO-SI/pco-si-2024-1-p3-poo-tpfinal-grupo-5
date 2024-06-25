@@ -8,7 +8,7 @@ namespace UrnaEletronica.Data.Configs
 {
     public class Consts
     {
-        private const string _connectionString = "Server=localhost;port=3306;Database=urna;Uid=root;Pwd=245199;";
+        private const string _connectionString = "Server=localhost;port=3307;Database=urna;Uid=root;Pwd=Canuto7198;";
 
         public static string ConnectionString
         {
