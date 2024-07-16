@@ -7,7 +7,7 @@
 
 `Eixo: 5`
 
-Este projeto aborda o desenvolvimento de um sistema de gerenciamento de votação eletrônica, tendo como foco inicial eleições Legislativas brasileiras. Além das destas, o sistema também abrange eleições Executivas, integrando as devidas regras eleitorais de ambas. 
+Trabalho acadêmico desenvolvido para a disciplina "POO", nesse trabalho foi desenvolvido uma Urna eletrônica em Windows Form e banco de dados MySql. Foi aplicados conceitos da disciplina como DAO, DTO, Classes e objetos, hierarquia de pastas, MVC.
 
 ## Integrantes
 
